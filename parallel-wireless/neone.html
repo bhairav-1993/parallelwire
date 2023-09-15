@@ -1,0 +1,3614 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+    
+
+
+<style>
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+
+  body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+    .navbar{
+        position: fixed;
+
+    }
+    .container{
+      align-items: center;
+    }
+    .row1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+.food-munch-logo {
+    width: 150px;
+    height: 80px;
+  }
+  #navItem1 {
+    color: #323f4b;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  #navItem2 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  #navItem3 {
+    color: #323f4b;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  #navItem4 {
+    color: #323f4b;
+    font-family: "Roboto";
+  }
+  .card-text1{
+    color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    
+    
+}
+.card-text2{
+  color: orangered;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin-top: 70px;
+
+}
+.card-text{
+  font-size: 20px;
+  padding: 0px 0px 20px;
+
+}
+.slider1{
+    display: flex;
+    overflow: auto;
+    background: url(pattern-bg.jpg) #f4f4f4;
+    height: 200px;
+    align-items: center;
+    margin-top: 50px;
+}
+.image{
+    height: 80px;
+    width: 200px;
+    margin: 20px;
+}
+.container2{
+    margin-top: 30px;
+    text-align: center;
+}
+.container3{
+    background-color: #f5f3f2;
+  
+    text-align: center;
+    padding: 20px;
+
+}
+.container4{
+    text-align: center;
+    background-color: #f5f3f2;
+    margin-top: 100px;
+    padding: 70px;
+}
+.container5{
+    margin-top: 50px;
+    align-items: center;
+}
+.buton1{
+    width: 150px; 
+    border-radius: 10px;
+    background-color: orangered;
+    border: none;
+    color: white;
+    height: 40px;
+
+}
+.heading{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.container7{
+    background-color: white transparent;
+    height: 120%;
+
+align-items: center;
+   
+}
+.solution-heading{
+  text-align: center;
+}
+.solution-container{
+  text-align: center;
+
+  position: relative;
+  
+}
+.social-links {
+    margin-top: 1.5em;
+
+  }
+  ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;}
+.rural{
+  margin-top: 100px;
+  padding-left: 100px;
+
+}
+.rural1{
+  margin-top: 100px;
+  padding-left: 100px;
+  
+ 
+    
+}
+.container8{
+  background-color: #efefef;
+  padding: 35PX 70px;font-size: 20PX; font-family: "Fira Sans", sans-serif;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.aa{
+  align-items: center;
+  height: 50px;
+  width: 80px;
+}
+.heading3{
+  font-family: 'Fira Sans', sans-serif;
+  font: 20px ;
+  color: #3B3936;
+  padding: 0px 0px 12px;
+  text-align: center;
+}
+.hero-cont-title {
+    width: 100%;
+    float: left;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    padding: 15px 0;}
+
+    .hero-inner {
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding: 00px 0 0;}
+
+    .parallax-window {
+    min-height: 400px;
+    background: 0 0;}
+   
+    
+
+
+    
+.cc{
+  margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container12 {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    margin-right: 220px;
+    
+}
+
+
+body, h2 {
+    line-height: 1.3;
+}
+body, h1, h2, h3, h4, h5, h6 {
+    color: #3b3936;
+    margin: 0;
+}
+
+.para5{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.container13{
+  margin-top: 60px;
+}
+.bi-cloud-arrow-down-fill{
+  height: 100px;
+  width: 200px;
+  background-color: orangered;
+  color: white;
+}
+.heading2{
+  font-size: 32px;
+  font-weight: normal;
+  padding: 0px 0px 22px;
+  color: #3b3936;
+  font-family: "Fira Sans" sans-serif;
+  margin-top: 30px;
+}
+.para6{
+  font-family: "Fira Sans" sans-serif;
+  font-size: 20px;
+  padding: 0px 0px 20px;
+  color: #3b3936;
+  margin-top: 20px;
+}
+.g{
+ 
+    font-weight: 700;
+    color: #ff5100;
+    font-size: 20px;
+   
+margin-top: 30px;
+    cursor: pointer;
+    outline: 0;
+}
+.solutino-head{
+  font-size: 60px;
+}
+.special{
+  color: #ff5100;
+  font-weight: bold;
+}
+.last-image{
+  background-image: url("featured-case-study-background-1600x650.jpg");
+
+  background-size: cover;
+ width: 100%;
+  color: white;
+}
+aside {
+    width: 100%;
+    max-width: 585px;
+    float: none;
+    display: inline-block;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 60px 8% 60px 6%;
+    color: white;
+    margin-left: 80px;
+}
+.featured-casestudy {
+    width: 100%;
+    color: #fff;
+    font-size: var(--body-large-txt);
+    line-height: var(--body-large-lineheight);
+    background-size: cover;
+    padding: 115px 0;
+    font-family: 'Fira Sans', sans-serif;
+}
+.btn, button, input[type="button"], input[type="submit"] {
+    width: auto;
+    height: auto;
+    float: none;
+    font-family: 'Fira Sans', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: 600;
+    font-size: 20px;
+    color: #fd3d1d;
+    line-height: 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: normal;
+    background: #fff;
+    border: 1px solid #fd3d1d;
+    border-radius: 15px;
+    box-shadow: none;
+    position: relative;
+    cursor: pointer;
+    outline: 0;
+    transition: 0.5s;
+    margin: 0;
+}
+.cta-info .icon-download {
+    vertical-align: middle;
+    font-size: 90px;
+    color: #3ab54a;
+    line-height: 1em;
+    position: relative;
+    z-index: 10;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.cta-info {
+    border: 2px solid #efefef;
+    padding: 35px 70px;
+    background: #efefef;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 12%);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  display: flex;}
+    .logo-band-cont2 {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+
+@media (max-width: 767px){
+.logo-band-cont2 .item {
+    margin: 0 10px 30px;
+}}
+@media (max-width: 1199px){
+.logo-band-cont2 .item {
+    margin: 0 13px 50px;
+}}
+.logo-band-cont2 .item {
+    margin: 0 18px 70px;
+}
+.logo-band-cont2 .item, .logo-band-cont2 .items-out {
+    float: none;
+    padding: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+.customer-container{
+  background-image: url(how-to-buy-bg-1600x575.jpg);
+margin-top: 30px;
+height: 100vh;
+background-size: cover;
+padding: 30px;
+
+}
+.sub-customer-container{
+ 
+  background-color: #ffffffe0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  font-family: 'Fira Sans', sans-serif;
+ padding: 30px;
+  
+}
+.order-list{
+  list-style-type: decimal;
+ color: #e44244;
+  margin-top: 20px;
+  padding: 0px 0px 6px 29px;
+  font-size: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: 400;
+  
+}
+
+.span-font{
+  color: #3b3936;
+
+}
+.conatiner-vodafone{
+margin-top: 70px;
+}
+.image-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+body {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+html {
+    background-color: #eaf0f2;
+}
+
+header {
+    text-align: center;
+    padding-top: 100px;
+    margin-bottom: 300px;
+    font-size: 35px;
+}
+
+header h2 {
+    color: #f0525f;
+}
+
+header span {
+    color: #eaa03f;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+@media (max-height:800px) {
+    footer {
+        position: static;
+    }
+    header {
+        padding-top: 40px;
+    }
+}
+
+.footer-distributed {
+  background: url(pattern-bg.jpg) #f4f4f4;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+    
+    
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+    
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: orangered;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: orangered;
+}
+
+@media (max-width: 880px) {
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}   
+.pp{
+margin-right: 14px;
+color: orangered;
+}   
+.gg{
+  padding: 15px;
+  color: #000000;
+} 
+.footer-heading{
+ 
+  padding: 10px;
+}
+.zz{
+  padding: 20px;
+}
+.card-title{
+  font-size: 32px;
+  font-family: "fira sans",sans-serif;
+  color: #3b3936;
+}
+.leadership-heading{
+  font-size: 38px;
+  padding: 0px 0px 45px;
+  margin-top: 70px;
+}
+.headership-heading3{
+  font-size: 32px;
+  padding: 30px;
+}
+.leadership-para{
+  font-size: 20px;
+  padding: 0px 0px 30px;
+  
+}
+.gstars-para{
+  font-size: 20px;
+
+  color: #3B3936;
+
+}
+.container0{
+min-height: 700px;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow: hidden;
+}
+.main-upper{
+  display: flex;
+}
+.image-container img{
+  height: 415px;
+  width: 585px;
+  margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+  
+}
+.career-container{
+  height: 150px;
+  display: flex;
+  justify-content: center;
+ background-color: #eaf0f2;
+ margin-top: 20px;
+ text-align: center;
+ align-items: center;
+}
+.container-qq{
+  margin-top: 80px;
+  display: flex;
+  margin:150px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.op{
+  font-family: "fira sans",sans-serif;
+}
+
+.dropbtn {
+  background-color: white;
+  color: black;
+  margin-top: 8px;
+  font-size: 14px;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-weight: normal;
+  font-family: "fira sans",sans-serif;
+ 
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+.ll:hover{background-color: orangered;}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #3B3936;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.drop-down-container{
+  height: 600px;
+  margin-top: 50px;
+ margin-left: -500px;
+ padding: 200px;
+  background-color: #efefef;
+padding-top: -100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.drop-down-container1{
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.drop-down-container2{
+  margin-top: 50px;
+  margin-left:10px;
+}
+.drop-down-container3{
+  background: url(megamenu-1.jpg) ;
+  
+
+  height: 100vh;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+  margin-left: 20px;
+}
+.btn1:hover{
+  background-color: orangered;
+  color: white;
+
+}
+.vv{
+  color: #363636;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+.nav-link{
+  margin-top: -20px;
+}
+.vv:hover{
+  color: orangered;
+  text-decoration: underline;
+}
+.red-color {
+        color:orangered;
+      height: 200px;
+    width: 200px;}
+.dropdown .vv:hover {background-color: #ddd; color: orangered;}
+
+.dropdown-content a:hover{background-color: #ddd; color: orangered;}
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: white; text-decoration: underline; color: orangered; }
+
+
+button :hover{
+  background-color: orangered;
+}
+.xyz{
+  min-height: 500px;
+  background-color: #8f9296;
+}
+.dd{
+  color: orangered;
+  height: 50px;
+  width: 50px;
+  padding-left: 20px;
+  font-size: 20px;
+}
+dd{
+  font-size: 20px;
+  padding: 5px;
+}
+dt{
+  font-size: 20px;
+  padding: 5px;
+}
+.bbb{
+  margin-top: -50px;
+  display: flex;
+  justify-content: start;
+}
+</style>
+
+
+</head>
+<body>
+
+ 
+    <nav class="navbar navbar-expand-lg fixed-top  navbar-light bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img
+              src="Parallel Wireless.png"
+              class="food-munch-logo"
+            />
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto">
+
+
+              
+              <div class="dropdown">
+              <a class="vv" href="#solution" >Solution</a>
+              
+                <div class="dropdown-content">
+                  <a href="#urban">Urban</a>
+                  <a href="#rural">Rural</a>
+                  <a href="#privatelte">Private LTE</a>
+                </div>
+              </div>
+
+
+              <div class="dropdown">
+                <a class="vv" href="#product">Products & Technology</a>
+                <div class="dropdown-content">
+                 <div class="drop-down-container">
+                  <div class="drop-down-container1">
+                    <h1  style="font-weight: bold; font-size: 20px; padding-left: 20px;">Technologies</h1>
+                    <ul style="list-style-type: none; ">
+                      <a href="#5g"><li style="padding-top: 5px; margin-left: -10;">5G</li></a>  
+                      <a href="#4g"><li  style="padding-top: 5px;padding-left: -10;">4G</li></a>  
+                      <a href="#3g"><li  style="padding-top: 5px; padding-left: -10;">3G</li></a>
+                      <a href="#2g"><li  style="padding-top: 5px; padding-left: -10;">2G</li></a> 
+                    </ul>
+                  </div>
+                  <div class="drop-down-container1">
+                    <h1  style="font-weight: bold; font-size: 20px; margin-left: 20px;" >Products ACCESS: OpenRAN</h1>
+                    
+                    <ul style="list-style-type: none; ">
+                     
+                      <li> <a href="#Software-defined Open vRAN"><li > Software-defined Open vRAN</li></a> </li>
+                     
+                      <li> <a href="#5GOpenRAN"><li> 5G OpenRAN</li></a> </li>
+                      
+                    </ul>
+                  </div>
+
+
+                  <div class="drop-down-container2">
+                 
+                    <h5 style="font-weight: bold;font-size: 20px;margin-left: 20px;">Network Software</h5>
+                    <ul style="list-style-type: none; font-size: 16px; ">
+                      <li style="padding-top: 5px;">Interoperable</li>
+                      <li  style="padding-top: 5px;">Unified</li>
+                      <li  style="padding-top: 5px;">Cloud-native</li>
+                      <li  style="padding-top: 5px;;">End-to-end</li>
+                      <li  style="padding-top: 5px;">Performance</li>
+
+                      <li  style="padding-top: 5px;">Multi-tenant and Sharing</li>
+                      <li  style="padding-top: 5px;;">Secure</li>
+
+                    </ul>
+                  </div>
+
+                  <div class="drop-down-container2">
+                 
+                    <h5 style="font-weight: bold;font-size: 20px;">
+                      Network Intelligence</h5>
+                    <ul style="list-style-type: none; font-size: 16px;margin-left: -20px; ">
+                      <li style="padding-top: 5px;">Analytics</li>
+                      <li  style="padding-top: 5px;">Real-Time ALL G SON</li>
+                      <li  style="padding-top: 5px;">Network Orchestrator
+                      </li>
+                      
+                    </ul>
+                  </div>
+
+                  <div class="drop-down-container3">
+                    <h1 style="color: #ffffff; font-size: 28px;padding: 20px; padding-right: 50px;">Visit our resources page to download collateral, watch customer testimonial, or get a spec sheet. <br> <a href="#" style="color: #ffffff;">Resources</a></h1>
+
+                  </div>
+
+
+                 </div> 
+                </div>
+              </div>
+
+
+
+    
+
+
+
+              <div class="dropdown">
+                <a class="vv" href="#customers" >Customer</a>
+               
+              </div>
+
+
+              <div class="dropdown">
+                <a class="vv" href="#company">Company</a>
+                  <div class="dropdown-content">
+                    <a href="#">Who we are?</a>
+                    <a href="#">News</a>
+                    <a href="#">Event</a>
+                    <a href="#urban">Leadership</a>
+                    <a href="#">Awards</a>
+                    <a href="#">Contacts</a>
+                    <a href="#urban">Person</a>
+                    <a href="#">Leagal</a>
+                   
+                  </div>
+                </div>
+  
+
+             
+              
+              
+              <a class="vv" href="#career">Career</a>
+              <div class="dropdown">
+                <a class="vv" href="#solution">Resources</a>
+                  <div class="dropdown-content">
+                    <a href="#">White papers</a>
+                    <a href="#"> Solution Overviews</a>
+                    <a href="#">Videos</a>
+                    <a href="#urban">Blogs</a>
+                    <a href="#">Case studies</a>
+                    <a href="#">Webinars</a>
+                    <a href="#urban">OpenRAN</a>
+                    
+                   
+                  </div>
+                </div>
+  
+
+              <div class="btn-header"><a class="btn btn1" href="/contact-us-form/" style="font-size: 15px; padding-left: 20px; padding-right: 20px;" target="_self">Contact us</a></div>
+            </div>
+          </div>
+        </div>
+      </nav>
+  </div>
+ 
+
+<section>
+
+<div>
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active bbb">
+            <img src="hero-city-opt.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block ">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="hero-city-opt.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+
+<div>
+    <div class="card-group mt-5">
+        <div class="card ml-5">
+          <img src="20211001-REIMAGINE-COVERAGE-opt-350x295.jpg"   class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">
+                Reimagine Coverage</h5>
+            <p class="card-text">Parallel Wireless OpenRAN supports indoor or outdoor deployment scenarios at the lowest TCO and can be deployed on an accelerated timeline to help mobile operators deliver coverage everywhere from rural to suburban to most dense urban.</p>
+            <a href="#" class="card-text card-text1">Learn More<i class="fa fa-chevron-right" style="margin-top: 100px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+            
+            
+            
+            
+          </div>
+        </div>
+        <div class="card ml-5">
+          <img src="20211102_REIMAGINE-CAPACITY-Home-page-350x295px-opt-350x295.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reimagine Capacity</h5>
+            <p class="card-text">Easy to install, low-cost and high-performing cloud-native Parallel Wireless Open RAN supports macro, Massive MIMO or small cell deployments for densification and delivers superior end user QoS for consumers and industries in urban scenarios.</p>
+            <a href="#" class="card-text card-text1">Learn More<i class="fa fa-chevron-right" style="margin-top: 100px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+            
+          </div>
+        </div>
+        <div class="card ml-5 mr-5">
+          <img src="20211001-REIMAGINE-5G-AND-BEYOND-01-2-opt-350x295.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Reimagine 5G and Beyond</h5>
+            <p class="card-text">Parallel Wireless cloud-native ORAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering the most cost-effective, easy to deploy, and advanced 5G capabilities for all 5G use cases.</p>
+            <a href="#" class="card-text card-text1">Learn More<i class="fa fa-chevron-right" style="margin-top: 70px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="slider1">
+   <img src="optus-logo.png"  class="image" alt="">
+   <img src="inland-cellular-logo.png" class="image" alt="">
+   <img src="vodacom.png" class="image" alt="">
+   <img src="vodaphone-logo-lg.png" class="image" alt="">
+   <img src="telefonica.png" class="image" alt="">
+   <img src="zain-logo.png" class="image" alt="">
+   <img src="clientlogo-02.png" class="image" alt="">
+   <img src="MTN-logo.jpg" class="image" alt="">
+   <img src="smart.png" class="image" alt="">
+   <img src="Optimera.png" class="image" alt="">
+   <img src="5g-rural-first.png" class="image" alt="">
+</div>
+
+
+<div class="container2">
+    <h2 class="leadership-heading">Leadership / Culture</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 p-3 mt-3">
+                <img src="icon-leadership-2.png" alt=""><br>
+                <h3 class="headership-heading3">Our Leadership</h3>
+                <p class="leadership-para">The Parallel Wireless leadership team has experience building many startup companies into leading industry players.</p>
+                <a href="#" class="card-text card-text1">Our Leaders <i class="fa fa-chevron-right" style="margin-top: 30px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+            </div>
+            <div class="col-4 p-3 mt-3">
+                <img src="icon-culture.png" alt=""><br>
+                <h1 class="headership-heading3">Our People</h1>
+                <p class="leadership-para">Reimaginers wanted. We have positions open across the globe. Join us..</p>
+                <a href="#" class="card-text card-text1">Become a Reimaginer <i class="fa fa-chevron-right" style="margin-top: 60px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+
+            </div>
+            <div class="col-4 p-3 mt-3">
+                <img src="icon-people.png" alt=""><br>
+                <h1 class="headership-heading3">Our Culture</h1>
+                <p class="leadership-para">We are a fast-moving technology company that is ambitious about innovation and collaboration, and focused on our customers’ success..</p>
+                <a href="#" class="card-text card-text1">Our Culture <i class="fa fa-chevron-right" style="margin-top: 40px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+<div class="container3 mb-5" style="margin-top: 70px; padding: 35px 70px; align-items: center;">
+<h1 style="font-size: 32px;padding: 20px;">Careers</h1>
+<p style="font-size: 20px; padding: 0px 0px 20px;">View our global openings and apply today to join the team.</p>
+<button class="btn btn-danger button1" type="button">JOIN US</button>
+
+</div>
+
+
+<div class="container0">
+
+<div class="main-upper">
+  <div class="image-container ">
+    <img src="20211102_Reimagine-network-Homepage-585x415.jpg" alt="">
+  </div>
+  <div class="text-container">
+    <h1 style="font-size: 32px; margin-left: 120px;; ">Reimagine Your Network</h1>
+            <p class="gstars-para" style="margin-left: 120px;">TParallel Wireless created the world’s only ALL G (5G/4G/3G/2G) software-enabled OpenRAN architecture to make delivery of wireless coverage or capacity use cases, especially capital intensive 5G, affordable as it enables mobile operators and industries to unleash the full value of connectivity. With unified across 5G/4G/3G/2G and Wi-Fi cloud-native architecture that is open and standardized across five key domains – RAN, Edge, Core, Orchestration and Analytics – we are committed to the 5G vision of bringing Internet to every person and organization for a truly connected world at much lower cost to deploy and maintain.</p>
+            <a href="#" class="card-text card-text1" style="margin-left: 120px;">Learn More<i class="fa fa-chevron-right" style="margin-top: 30px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div  style="margin-top: 100px;">
+<div class="container">
+    <div class="row">
+        <div class="col-md-6 order-sm-1 order-md-0">
+            <h1 style="font-size: 32px; padding: 0px 0px 5px;">5G Starts Here</h1>
+            <p class="gstars-para">Through open collaboration with OpenRAN ecosystem, we’ve created the world’s first and largest fully compliant OpenRAN portfolio that delivers the next generation of wireless infrastructure at a much lower cost, ensuring more equal access to 5G globally. Our software-defined and interoperable OpenRAN architecture was designed from the ground up to reduce complexity and drive out cost from every aspect from the RAN to the Core. We pride ourselves on offering a fully automated outdoor or indoor coverage and capacity solutions that are easy and cost-effective to deploy and maintain and are software upgradable to 5G.</p>
+            <a href="#" class="card-text card-text1">Learn More<i class="fa fa-chevron-right" style="margin-top: 30px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+        </div>
+        <div class="mt-5 col-md-6 order-sm-0 order-md-1">
+            <img src="20211102_5G-Starts-Here-Homepage-585x415px-585x415.jpg" height="415px" width="585" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="container m-3 p-5">
+    <div class="row">
+        <div class="col-md-6 order-sm-0 order-md-1">
+            <img src="20211102_Reimagine-network-Homepage-585x415.jpg"  height="415px" width="585" >
+        </div>
+        <div class="col-md-6 order-sm-0 order-md-1">
+            <h1 style="font-size: 32px; margin-left: 120px;; ">Reimagine Your Network</h1>
+            <p class="gstars-para" style="margin-left: 120px;">TParallel Wireless created the world’s only ALL G (5G/4G/3G/2G) software-enabled OpenRAN architecture to make delivery of wireless coverage or capacity use cases, especially capital intensive 5G, affordable as it enables mobile operators and industries to unleash the full value of connectivity. With unified across 5G/4G/3G/2G and Wi-Fi cloud-native architecture that is open and standardized across five key domains – RAN, Edge, Core, Orchestration and Analytics – we are committed to the 5G vision of bringing Internet to every person and organization for a truly connected world at much lower cost to deploy and maintain.</p>
+            <a href="#" class="card-text card-text1" style="margin-left: 120px;">Learn More<i class="fa fa-chevron-right" style="margin-top: 30px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container m-3 p-5">
+  <div class="row">
+      <div class="col-md-6 order-sm-1 order-md-0">
+          <h1 style="font-size: 32px; padding: 0px 0px 5px;">Reimagine Your Economics</h1>
+          <p class="gstars-para">The company’s end-to-end ALL G cloud-native OpenRAN portfolio is designed to help our customers modernize their networks, reduce deployment cost and complexity, increase operational efficiency, find new revenue streams and start deploying multi-vendor 5G networks today. Software innovation and openness across 5G/4G/3G /2G and Wi-Fi coupled with network automation drives TCO reduction for low-density or high density use cases of up to 60% for CAPEX and 65% for OPEX..</p>
+          <a href="#" class="card-text card-text1" >Learn More<i class="fa fa-chevron-right" style="margin-top: 30px;  font-size:20px;color:orangered; margin-left: 10px;"></i></a>
+      </div>
+      <div class="mt-2 col-md-6 order-sm-0 order-md-1">
+          <img src="20211001-REIMAGINE-ECONOMICS.jpg" height="415px" width="585" alt="">
+      </div>
+  </div>
+</div>
+
+
+
+<div class="container4">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+<img src="icon-events11.png" style="padding: 20px 20px;" alt="">
+<h1>Upcoming Events</h1>
+<h6>Visit with us at upcoming tradeshows, conferences or attend our webinars to learn how we can help you reimagine your networks.</h6>
+<h4 >Connect with us at events </h4>
+</div>
+            
+            
+<div class="col-md-6">
+                <img src="icon-awards.png" style="padding: 20px 20px;"  alt="">
+<h1>Awards</h1>
+<h6>We are honored and humbled to be recognized by the industry with awards for our innovation, technology vision and deployments.</h6>
+<h4>Learn More </h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container5 m-5">
+    <h1 class="heading">Our Products</h1>
+    <div class="card-group">
+        <div class="card mr-5 col-md-6 col-lg-4">
+          <img src="product-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Access: OpenRAN</h5>
+            <p class="card-text">Our OpenRAN hardware ecosystem consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower cost.</p>
+          </div>
+          
+          <button class="buton1" type="button">Learn More</button>
+            
+          
+        </div>
+        <div class="card col-md-6 col-lg-4 mr-5">
+          <img src="product2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Network Software</h5>
+            <p class="card-text">Our software platforms provide RAN and core services, orchestration, programmability, and service assurance including analytics and monitoring to deliver business agility, TCO reduction and to enable new revenue opportunities.</p>
+          </div>
+          
+            <button class="buton1" type="button">Learn More</button>
+         
+        </div>
+        <div class="card col-md-6 col-lg-4">
+          <img src="product3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Intelligence
+                and Automation </h5>
+            <p class="card-text">Network automation and intelligence software across ALL Gs for outdoor and indoor delivers TCO savings with self-configuration and self-optimization to enable optimal subscriber experience..</p>
+          </div>
+          <button class="buton1" type="button">Learn More</button>
+        </div>
+      </div>
+</div>
+
+
+</div>
+</section>
+   
+
+
+
+<section id="solution">
+    <div class="hero-inner ">
+      <div class="parallax-window">
+        <img src="hero-solutions.jpg">
+        <div class="hero-cont-title">
+          <div class="container10">
+            <h1 class="solutino-head">Solution</h1>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+
+
+
+  
+      <div class="container12">
+          
+                  <h2 class="heading2">Reimagine Your Network.<br>Reimagine Your Economics</h2>
+                        <p class="para5">Parallel Wireless created world’s only 5G 4G 3G 2G <a href="https://www.parallelwireless.com/products/openran-hardware-ecosystem/" class="special">OpenRAN</a> architecture to make delivery of wireless <a href="https://www.parallelwireless.com/solutions/coverage/" class="special">coverage</a> or <a href="https://www.parallelwireless.com/solutions/capacity-wireless-solutions/" class="special">capacity</a> use cases, especially capital intensive 5G, affordable as it enables mobile operators and industries to unleash the full value of connectivity. With unified across 5G 4G 3G 2G cloud-native architecture that is open and standardized across five key domains – RAN, <a href="https://www.parallelwireless.com/products/edge-core/" class="special">Edge</a>, Core, <a href="https://www.parallelwireless.com/products/network-orchestrator/" class="special">Orchestration</a> and <a href="https://www.parallelwireless.com/products/analytics/" class="special">Analytics</a> – we are committed to 5G vision of bringing Internet to every person and organization for a truly connected world. The company’s end-to-end ALL G cloud-native OpenRAN portfolio is designed to help our customers modernize their networks, reduce deployment cost and complexity, increase operational efficiency, find new revenue streams and start deploying multi-vendor <a href="https://www.parallelwireless.com/technologies/5g/" class="special">5G networks</a> today.</p>
+               <p></p>
+      </div>
+  </div>
+
+
+<div class="container13">
+
+    <div class="container ">
+      <div class="row">
+        <div class="col-lg-6 rural">
+          <h1 class="rural-heading">Rural</h1>
+          <p class="para6">Support urban or rural coverage deployments with Parallel Wireless easy to deploy and easy to maintain <a href="" class="special"><span>OpenRAN</span></a>  to deliver optimal subscriber experience at much lower TCO.</p>
+          <h3 class="g">Learn More</h3>
+        </div>
+        <div class="col-lg-6   rural-image">
+          <img src="coverage-img.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container ">
+      <div class="row">
+        
+        <div class="col-lg-6   order-md-1 order-lg-0 rural-image">
+          <img src="capacity-img.jpg" width="570px" alt="">br
+        </div>
+        <div class="col-lg-6  order-md-0 order-lg-1 rural1">
+          <h1 class="rural-heading">Urban</h1>
+          <p class="para6">Deliver high throughput, <a href="" class="special"><span></span>low latency</a> and consistent experience with Parallel Wireless easy to install and maintain, low-cost and high-performing cloud-native 5G 4G 3G 2G architecture for <a href="" class="special"><span></span>macro</a> or small cell deployments.</p>
+          <h3 class="g">Learn More</h3>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+    <div class="container ">
+      <div class="row row1">
+        <div class="col-lg-6  rural">
+          <h1 class="rural-heading">Private LTE</h1>
+          <p class="para6">Provide dedicated, fixed-cost LTE networks for businesses and IoT devices using Parallel Wireless OpenRAN on licensed, shared, or unlicensed spectrum to deliver secure, managed information flow for enterprises of any size.</p>
+          <h3 class="g">Learn More</h3>
+        </div>
+        <div class="col-lg-6  rural-image">
+          <img src="in-building2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+ 
+   
+    <div class="container ">
+      <div class="row row1">
+        
+        <div class="col-lg-6  order-md-1 order-lg-0  rural-image">
+          <img src="public-safety.jpg"width="570px" alt="">
+        </div>
+        <div class="col-lg-6 order-md-0 order-lg-1 rural1">
+          <h1 class="rural-heading">In-Building</h1>
+          <p class="para6">Deploy reliable indoor coverage solutions at pennies per square foot while reducing the complexity of deployment and maintenance and delivering quality voice and data services to the end user.</p>
+          <h3 class="g">Learn More</h3>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <div class="container ">
+      <div class="row row1">
+        <div class="col-lg-6  rural">
+          <h1 class="rural-heading">Public Safety LTE</h1>
+          <p class="para6">Provide Public Safety LTE with our solution to deliver reliable and secure coverage, local organizational control, and resilience to first responders, police and defense organizations in daily and tactical operations.</p>
+          <h3 class="g">Learn More</h3>
+        </div>
+        <div class="col-lg-6  rural-image">
+          <img src="Images-Private-LTE.jpg" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container8">
+  <h3 class="heading3">Find out how we help our customers roll out services faster and reduce OPEX by visiting our resources page to download data sheets and solution overviews or watch customer videos or webinar recordings.</h1>
+
+ <a href="" class="aa"><i class="bi bi-cloud-arrow-down-fill"></i></a> 
+</div>
+
+</section>
+
+
+
+
+<section id="urban">
+
+ <div class="hero-inner ">
+      <div class="parallax-window">
+        <img src="https://www.parallelwireless.com/wp-content/uploads/technologies-hero.jpg">
+        <div class="hero-cont-title">
+          <div class="container10">
+            <h1 class="solutino-head">Urban Solution</h1>
+          </div>
+        </div>
+       
+      </div>
+ </div>
+ <div style="display: flex;justify-content: center;">
+  <button class="ll" style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Urban</button>
+  <button class="ll" style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Rural</button>
+  <button class="ll" style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">Private LTE</button>
+ </div>
+<div style="margin: 100px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+  <h5>Global Mobile Network Operators (MNOs) are upgrading their networks in urban and dense urban environments to enable faster service and meet the growing digital demands of the future. To do so, they must ensure high quality of service (QoS) and a consistent end-user experience everywhere and at any time, especially during peak usage hours.</h5>
+  
+</div>
+<h2 style="text-align: center;padding: 50px;">Expand and Modernize Your Networks</h2>
+<h5 style="padding-left: 100px; padding-right: 100px; padding-bottom: 50px;">Our Urban Solution allows MNOs to expand and modernize their networks with an urban-ready, ALL G, Open RAN solution which is O-RAN Alliance compliant running on 7.2 radios. Our solution is easy to install, high-performing and reduces Total Cost of Ownership (TCO) while simplifying maintenance and enabling a broad ecosystem of partners.</h5>
+
+<div style="display:flex; align-items: center;justify-content:center;">
+<img src="Single-Cell-Urban_Infographic-02.jpg" alt=""></div>
+<h5 style="padding-left: 100px; padding-right: 100px; padding-top:  50px;">With commercial-off-the-shelf (COTS) vBBU hardware our Urban Solution enables Open RAN radios, resource orchestration, network slicing and subscriber management across All Gs – 2G, 3G, 4G, 5G and beyond. Our solution has advanced through the 3GPP and O-RAN Alliance release roadmap and is supporting the foundational features and capabilities for strong network performance in high-capacity urban environments.</h5>
+
+<div style="padding: 50px;">
+
+
+<h2 style="margin-top: 20px; margin-bottom: 20px;">Features and Capabilities</h2>
+<h5>Our Urban Solution is an agile, software-based approach to RAN infrastructure, which is designed to allow MNOs to quickly deploy network upgrades at a lower TCO. The following describes the features and benefits of our state-of-the-art Urban Solution:</h5>
+
+<ul>
+  <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> <span style="font-weight: bold;">Inovate-</span>  Proprietary interfaces and limited flexibility with legacy suppliers make it challenging for MNOs to maintain, expand, and upgrade their networks to meet future demands. With our Parallel Wireless Urban solution, MNOs can avoid vendor lock-in, scale and enable new innovative services seamlessly with cloud-native centralized tools such as Continuous Integration/Continuous Delivery (CI/CD), DevOps, Artificial Intelligence (AI) and Machine Learning (ML).</h5></li>
+  <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> <span style="font-weight: bold;">Futureproof for 5G –</span>  MNOs need to upgrade their networks to prepare for the explosive data demands such as Internet of Things (IoT), Industry 4.0, autonomous driving, and digital health. With our Urban solution MNOs can upgrade their networks to any G with a commercial-off-the-shelf (COTS) vBBU which is easy to install, has open interfaces and supports a broad ecosystem of vendors across 2G, 3G, 4G and 5G, preparing networks for the future.
+    Easy to install, modernize and expand networks – The costs to deploy and maintain networks and the lack of interoperability can be daunting as many operators are supporting 2G voice while migrating to 4G data and preparing for the greater bandwidth possibilities of 5G. Easily change and upgrade technologies to support emerging needs with our cloud-native software-based solution.</h5></li>
+  <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"><span style="font-weight: bold;">Reduce Total Cost of Ownership (TCO) –</span>  Network Operations Center (NOC), zoning and permits, management services, power and backhaul, are a few of the many expenses required to maintain and upgrade networks. A cloud-native, software-defined architecture with state-of-the art features such as RAN automation, self-configuration, hands free software testing, integration and delivery drives down costs and improves interoperability. A container based DU/CU implementation across ALL Gs, enables faster time-to-market for new services and features enabling OPEX and CAPEX savings. </h5></li>
+  <li style="color: orangered;"><h5 style="color: #363936; margin-top: 20px;"><span style="font-weight: bold;">Enhance end user experience – </span> MNOs need to deliver a high quality and consistent experience everywhere, and all times, including during peak usage hours in high-capacity urban environments. Artificial Intelligence (AI) and Machine Learning (ML) enable seamless software upgrades utilizing data to optimize network performance in urban environments, delivering optimal subscriber throughput and quality of service. With open non-proprietary interfaces, the Parallel Wireless Urban Solution addresses network overloads during high peak hours, ensuring ubiquitous coverage, enabling state-of-the-art applications such as IoT, and exceeding customer expectations. </h5></li>
+</ul>
+</div>
+
+
+<div style="margin: 40px; padding-left: 50px; padding-right: 50px;">
+  <h1 style="margin-top: 20px;">Deployment Scenarios</h1>
+ <h5 style="margin-top: 20px;">Mobile Network Operators must have flexibility with network deployments while simultaneously keeping Capital Expenses (CAPEX) and Operating Expenses (OPEX) down, which is extremely important in high-capacity, dense urban environments. Our Urban Solution is ALL G, O-RAN compliant and enables cost conscious mobile operators to overcome deployment barriers while meeting necessary targets of generating new revenue, improving end user experience, reducing TCO and making their networks future-proof.</h5>
+<h5 style="margin-top: 20px;">With our lean Open RAN cloud-native software solution on a modest server and Open RAN automation with DevOps and CI/CD, network upgrades and software updates are easier and faster to roll out, thus improving TCO. Multi-vendor and multi-operator support allows flexible deployments even in the most difficult urban locations.</h>
+
+</div>
+
+<div style="margin: 40px; padding-left: 50px; padding-right: 50px;">
+  <h1 style="margin-top: 20px;">Deployment Options Include:</h1>
+ <h5 style="margin-top: 20px;"> <span style="font-weight: bold;">Integrated – </span>Enables 2G, 3G, 4G from the same base station with upgrades to 5G. This deployment option provides the lowest power consumption for multi-mode operation. Parallel Wireless has had successfully integrated deployments with customers, MTN, Optus and Vodafone Turkey.</h5>
+<h5 style="margin-top: 20px;"><span style="font-weight: bold;">Urban, Suburban and Rural (split 7, 8) – </span>This deployment option supports three environments, Urban, Suburban and Rural, and enables ALL Gs from the same base station and is software upgradeable to 5G. This option includes pooled server capacity with a COTS vBBU and is upgradeable to accommodate other splits. Parallel Wireless has successfully worked with Inland Cellular, and Vodafone Turkey and Ireland implementing Urban, Suburban and Rural deployments.</h>
+  <h5 style="margin-top: 20px;">Our Urban Solution is the first O-RAN Alliance compliant Open RAN solution supporting all generations of networks, from 2G, 3G, 4G and 5G on 7.2 radios. With open, non-proprietary interfaces that address network overloads during high peak hours, ensuring ubiquitous coverage, faster speeds, and lower latency, the Urban Solution enables digital transformations preparing networks for the future.</h>
+
+</div>
+
+<div class="container8">
+
+<h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;">Download our Urban Solution Overview to learn more</h3>
+</div>
+
+
+<div>
+  <div class="card-group mt-5">
+      <div class="card ml-5">
+        <img src="product-4.jpg"   class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+              Reimagine Coverage</h5>
+          <p class="card-text">Parallel Wireless OpenRAN supports indoor or outdoor deployment scenarios at the lowest TCO and can be deployed on an accelerated timeline to help mobile operators deliver coverage everywhere from rural to suburban to most dense urban.</p>
+          <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+          
+          
+          
+        </div>
+      </div>
+      <div class="card ml-5">
+        <img src="product-1 (1).png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reimagine Capacity</h5>
+          <p class="card-text">Easy to install, low-cost and high-performing cloud-native Parallel Wireless Open RAN supports macro, Massive MIMO or small cell deployments for densification and delivers superior end user QoS for consumers and industries in urban scenarios.</p>
+          <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+        </div>
+      </div>
+      <div class="card ml-5 mr-5">
+        <img src="product-2.png" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Reimagine 5G and Beyond</h5>
+          <p class="card-text">Parallel Wireless cloud-native ORAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering the most cost-effective, easy to deploy, and advanced 5G capabilities for all 5G use cases.</p>
+          <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+</section>
+
+
+
+<section id="rural">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <img src="https://www.parallelwireless.com/wp-content/uploads/technologies-hero.jpg">
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">Rural Solution</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Urban</button>
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Rural</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">Private LTE</button>
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>Enhanced mobile broadband will be the first commercial application of 5G and can help operators deliver coverage everywhere from rural to suburban to most dense urban locations. Parallel Wireless OpenRAN can support all those deployment scenarios at the lowest TCO and can be deployed on accelerated timeline.</h5>
+   
+ </div>
+
+ <div style="padding: 50px;">
+  <img src="coverage-img.jpg"  style="float: right; margin: 20px;" alt="">
+
+  <h2>Features and Capabilities</h2>
+<h5>Parallel Wireless’s innovative cloud-native OpenRAN coverage solution enables coverage by lowering cost, simplifying installation, and increasing flexibility through disaggregation of hardware and software. The flexibility of our software platform enables deployment in urban or rural environments. To meet a variety of deployment scenarios, we have a large portfolio of OpenRAN hardware available from macrocells, to small cells, to Massive MIMOs, all orchestrated and managed by our OpenRAN and network software suite:</h2>
+
+  
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Offering ALL Gs in RRHs, all software upgradable to any G, and enabling access flexibility; shared capacity on COTS-based vBBU to provide voice and data on the same equipment.</h5></li>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Providing an overall low-cost solution with a cost structure that serves low density through deployment flexibility (can deploy 1 sector per site, or tri-sector where needed with the same hardware and all optimizations and handovers done by OpenRAN software) or high density through selection of OpenRAN hardware (macros, small cells or Massive MIMOs) that fit the deployment need.</h5></li>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Enabling the new telco value chain in coverage through flexibility in operation – with the Parallel Wireless OpenRAN controller enabling new business models, new revenue generation and network sharing – coverage network slice can be managed by a third party without affecting any other regional or urban slices.
+    </h5></li>
+  </ul>
+
+
+ </div>
+ 
+
+
+
+ <div style="padding: 50px;">
+ 
+ 
+ <h2 style="margin-top: 20px; margin-bottom: 20px;">Deployment Options</h2>
+ <h5>Uncertainty in the coverage business case (from the demand side) in low-density areas, operational complexity (from the cost side) and competitive pressure in urban/high density markets results in MNOs struggling to find a coverage solution that can address both scenarios:</h5>
+ 
+ <ul>
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Low density areas: Parallel Wireless’s unique low cost, low footprint and cloud-native multi-technology solution helps to deliver coverage to low density areas by making deployments easy and affordable to install, maintain and to upgrade to any future technology (including 5G) on the same hardware without installing any additional hardware or performing sites visits. It minimizes the CAPEX/OPEX in these low-density areas where there is high uncertainty on return of the investment for MNOs. It also delivers superior sustainability.</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> High density areas: As MNOs deploy urban networks easy to install, low-cost and high-performing cloud-native Parallel Wireless OpenRAN supports macro or small cell deployments for densification and delivers superior end user QoS for consumers and industries with our OpenRAN software suite making high density networks easy to deploy and maintain by self-configuring and self-optimizing them real-time.</h5></li>
+ </ul>
+ </div>
+ 
+ <div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;">Learn More about Coverage Deployment Strategies in Our Urban Densification PowerPoint Overview</h3>
+    </div></h3>
+  </div>
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Vodafone Case Study</h3>
+          <p>Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Learn More <i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products & Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="product-4.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            Outdoor OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="product-1 (1).png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            OpenRAN/h5>
+           <p class="card-text">Our cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities to mobile operators and industries.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="product-2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">ALL G Real-time SON</h5>
+           <p class="card-text">Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play deployments and hands-free maintenance for much lower overall TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+ 
+
+
+
+<section id="privatelte">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <img src="PrivateLTE-banner-1600x500 (1).jpg">
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">Private LTE</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Urban</button>
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">Rural</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">Private LTE</button>
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>Parallel Wireless Private LTE solution provides global mobile operators with a new revenue generating opportunity for private and public enterprises in search to replace their legacy, hardware-centric networks with cloud-native, easy to deploy and maintain 4G/LTE solution. Parallel Wireless Private LTE network solution provides secure and reliable connectivity that covers every inch of operations, for humans and machines (IoT) and software-upgradable to 5G. Applicable for all industries, it provides the secure, reliable, flexible and cost-effective wireless connectivity that business- and mission-critical applications demand.</h5>
+   
+ </div>
+
+
+
+
+ <div class="container13">
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 rural">
+        <h2 >Features and Capabilities</h2>
+        <h5 >Parallel Wireless Private LTE is a converged, service-aware, mission-critical end-to-end architecture to deliver autonomy, efficiency and staff safety. Components include:</h2>
+          
+          <ul> 
+            <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> A complete end-to-end LTE wireless broadband network — radio access (i.e. vessel, rig, platform, indoor, M2M),</h5></li>
+            <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Backhaul for transport, core, devices and management</h5></li>
+           
+          </ul>
+        
+          <h5>The components leverage the most advanced radio access technologies, including small cells and macro cells for maximum coverage and capacity to reach remote systems, vessels and enable safety for personnel.</h5>
+          <h5 style="margin-top: 20px;">A common communications management system for the radio access network, backhaul and core along with lifecycle device management simplifies and reduces operating expenses while being interoperable with existing infrastructure.</h5>
+          <button></button>
+         
+          <div class="btn-header"><a class="btn btn1" href="/contact-us-form/" style="font-size: 15px; padding-left: 20px; padding-right: 20px;" target="_self">VIEW FULL INFOGRAPHIC</a></div>
+          <h3 class="g" style="margin-top: 20px;">Learn More</h3>
+      </div>
+      <div class="col-lg-6   rural-image">
+        <img src="lte-for-mining-preview-585x415.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+ <div style="padding: 50px;">
+ 
+ 
+ <h2 style="margin-top: 20px; margin-bottom: 20px;">Deployment Options</h2>
+ <h5>The same solution can be deployed in both outdoor (fixed and in-vehicle) and indoor scenarios for specialized enterprise use cases:</h5>
+ 
+ <ul>
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Manufacturing and warehouses: Private LTE puts a manufacturing site’s network on a different frequency so robotic and IoT devices don’t have to compete for coverage. With priority and pre-emption, Parallel Wireless solution also can provide a higher quality of service for particular devices or voice traffic.</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Mining</h5></li>
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Oil and Gas: Wi-Fi isn’t a robust or secure option to meet network needs, yet provisioning wires in remote locations or moving boats and motherships is challenging. With Parallel Wireless Private LTE as the primary WAN and satellite as the backhaul, the oil and gas industries have a secure LTE network that can keep everything and everyone connected, regardless of location. SON will assist with plug-n-play configuration and on-going hands free optimization while providing seamless mobility between boats and other moving vehicles.</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Campuses: Colleges, financial institutes and hospitals.</h5></li>
+
+<h5>The deployments are flexible: the system can be deployed locally or in the cloud.</h5>
+<h5>The following services/features are provided by this solution:</h5>
+
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Enables a variety of voice options (VoLTE, VoWiFi)</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Interops with existing LMR/PMR or Wi-Fi networks</h5></li>
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">PTT (Push To Talk) that can integrate with DMR voice channels</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Staff can now carry an LTE handset rather than a legacy DMR handset</h5></li>
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> M2M for pump, vessel health monitoring, easy vessel management, team tracking, etc.</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Web browsing</h5></li>
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Localization of 4G calls</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Location based services</h5></li>
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">LMR/PMR and LTE interoperability</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Dispatching</h5></li>
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Multimedia streaming and sharing (video, picture, text)</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Dual-band handsets could allow roaming onto consumer LTE networks</h5></li>
+
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">The solution will provide flexibility and elastic network:</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">In case of link failure to the cellular operator, the LTE circle will remain and provides all the above services locally</h5></li>
+
+
+   <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">In case of emergency (such as backhaul loss, team trapped, etc.) PTT is available</h5></li>
+   <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Easily movable/portable above ground towers when blasting; easy to re-deploy</h5></li>
+
+
+  </ul>
+ </div>
+ 
+ <div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;">Learn More about Coverage Deployment Strategies in Our Urban Densification PowerPoint Overview</h3>
+    </div></h3>
+  </div>
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Vodafone Case Study</h3>
+          <p>Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Learn More <i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products & Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="product-4.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            5G
+OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="product-1 (1).png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            Outdoor
+            OpenRAN</h5>
+           <p class="card-text">Our cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities to mobile operators and industries.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="product-2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Real-time
+            ALL G SON
+            </h5>
+           <p class="card-text">Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play deployments and hands-free maintenance for much lower overall TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+ 
+
+
+
+ <section id="5g">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <div class="xyz"></div>
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">Private LTE</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: orangered; color: white;border-color: white;">5G</button>
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">4G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">3G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">2G</button>
+
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>5G networks will have to support several services, many of them with different and almost orthogonal performance requirements.</h5>
+   <H5>Three major service categories defined for 5G are:</H5><br>
+   <h5>Enhanced Mobile Broadband (eMBB): This has been billed as the main driver for initial 5G rollouts. Not only are end users expecting to receive faster speeds, they expect more data allowances for a lower price. 5G meets end-user expectations while delivering spectral efficiency for the operator. The Parallel Wireless OpenRAN and network software suite plays an important role here by abstracting core functionality and catering for different deployment options, based on the mobile operator requirement. <br>Massive Machine Type Communications (mMTC): LTE-M and NB-IoT, standardized as part of 3GPP Release-13 version of LTE, are being enhanced to work with 5G. There is no special focus for mMTC in 5G currently, but this will play an important role in the 3GPP Release-16 version of 5G. The Parallel Wireless software suite will help to manage the myriad of IoT devices and mitigate interference and reduce signaling strain on the core. <br>Ultra-Reliable and Low-Latency Communications (URLLC): This feature promises to make 5G appealing to many new verticals, thereby providing mobile operators with new sources of revenue. There is no focus for URLLC in 5G currently but it will play an important role in 3GPP Release-16 version of 5G. This feature also requires 5GC, as new slices would need to be created for different verticals to meet their requirements. <br>In addition to the above use cases, fixed wireless access (FWA) has also emerged as an important use case for quite a few operators. While there are no special features that have been added specifically for FWA, features such as 3D beamforming and wider bandwidths make 5G an attractive option for FWA. Parallel Wireless OpenRAN is increasingly being deployed not only to provide mobile broadband services but also for fixed wireless deployments using 4G LTE. It is foreseen that this trend will continue with 5G. <br></h5>
+ </div>
+
+
+
+ <div style="padding: 50px;">
+  <img src="wifi-graph.jpg-600x321.jpg"  style="float: right; margin: 20px;" alt="">
+
+  <h2>Features and Capabilities</h2>
+<h5>In order to expedite network availability, phase 1 of 5G Deployments enables mobile operators to launch services with new 5G radios (aka NR), with the ability to use either an existing 4G core (NSA), or a newly deployed 5G Core (SA). In addition to the core network, RAN is undergoing major transformation too. By distributing protocol stacks between different components (different splits), solution providers focus on addressing the tight requirements for a near perfect fronthaul between RRHs and BBUs. <br>Parallel Wireless is committed to a cloud-centric approach across its end-to-end 5G 4G 3G and 2G portfolio to include OpenRAN, and orchestration solutions, using open development and automation to deliver cost-effective networks that meet subscriber demands today and tomorrow. <br>Cloud-native, fully virtualized architecture with a flexible end-to-end orchestration framework includes:</h2>
+
+  
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;"> Globally deployed OpenRAN solution supporting multiple 3GPP compliant RAN splits, easy to deploy and maintain with Parallel Wireless SON module. The OpenRAN architecture enables the Remote Radio Units (RRUs) to interwork with the virtualized COTS-based Base Band Unit (vBBU) over Ethernet Fronthaul (FH), overcoming the traditional constraints of Common Public Radio Interface (CPRI™) over fiber. The OpenRAN hardware is remote-upgradable Software Defined Radio (SDR) capabilities from any G to 5G.</h5></li>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Network software to support easy install, hands-free maintenance, end-to-end network slicing, vCU functionality meeting user expectations while delivering lowest deployment cost.</h5></li>
+    </h5></li>
+  </ul>
+  <h5>Both access and core offerings are enabled by its network functions virtualization (NFV) and container management and orchestration software platform. <br> With numerous successful 5G demonstrations and trials in progress globally, Parallel Wireless cloud-native infrastructure and OpenRAN approach is helping operators reimagine the mobile network economics.</h5>
+
+
+ </div>
+
+
+
+<div>
+
+  <h2>DEPLOYMENT BENEFITS</h2>
+<h5>With Parallel Wireless OpenRAN architecture, MNOs can:</h5>
+
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Deploy 5G networks with 5G-native architecture  <br>The Parallel Wireless architecture is software-based, so it is inherently 5G-native, and a network could be switched to 5G when standards are finalized with a simple software upgrade, maximizing the original 4G investment on the RAN or core. Parallel Wireless architecture supports any migration option.</h5></li>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> Simplify 5G and reduce deployment cost through 5G Open RAN <br> The orchestration and real-time SON capabilities provide real-time optimization and network automation reducing the maintenance cost and enabling new business cases for 5G. In addition, spectrum sharing and network sharing can be enabled through MORAN and MOCN functionality to maximize spectrum and reduce 5G deployment cost.</h5></li>
+    </h5></li>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Deliver 5G experiences for consumers and industries<br>With the features of Parallel Wireless’s OpenRAN architecture, the introduction of network slicing and control and user plane separation (CUPS) on any 5G NSA core supports 5G design architectures.</h5></li>
+
+  </ul>
+  <h5>The OpenRAN software suite manages each slice, delivering the required QoS, security, latency characteristics.</h5>
+  <h5>In addition, it will deliver dynamic capacity and throughput for optimal performance for 5G data intensive applications through scalable software-based architecture.</h5>
+</div>
+
+
+
+ <div class="container13">
+
+
+
+
+
+
+ 
+ <div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;">Learn More in Our 5G Webinar Recording</h3>
+    </div></h3>
+  </div>
+<div style="display: flex;justify-content: center;align-items: center;">
+  <a href="https://www.youtube.com/watch?v=01RuPFplAng"><img src="5g-ruralfirst-video-still.jpg" height="400px" width="600px" alt=""></a> 
+</div>
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Vodafone Case Study</h3>
+          <p>Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Learn More <i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products & Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="product-4.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            5G
+OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="product-1 (1).png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            Outdoor
+            OpenRAN</h5>
+           <p class="card-text">Our cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities to mobile operators and industries.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="product-2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Real-time
+            ALL G SON
+            </h5>
+           <p class="card-text">Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play deployments and hands-free maintenance for much lower overall TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+ <section id="4g">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <img src="4g-hero.jpg" alt="">
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">4G LTE</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">5G</button>
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: orangered; color: white;border-color: white;">4G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">3G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">2G</button>
+
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>Parallel Wireless’s fully virtualized, software-based unified 2G/3G/4G/ 5G architecture allows operators to easily deploy, manage, scale, and future-proof their  4G/LTE networks or cost-effectively migrate their existing networks from 2G/3G to 4G while providing the lowest TCO by making the networks self- configuring, self-optimizing, and 5G-ready.</h5>
+ </div>
+
+
+
+ <div style="padding: 50px;">
+  <img src="technologies4g-768x432.png"  style="float: right; margin: 20px;" alt="">
+
+  <h2>Features and Capabilities</h2>
+<h5>Parallel Wireless’s solution is comprised of two main components to provide LTE based functionality. The OpenRAN RRH hardware from a variety of ecosystem partners. A COTS vBBU can provide shared capacity or enable Carrier Aggregation (CA) at a much lower cost. OpenRAN Controller software suite consolidates all necessary functionalities to build, expand or densify the 4G RAN (i.e. X2-gateway, small cell gateway, and security gateway) to build new or expand/ densify current 4G networks. <br>Parallel Wireless’s Automation and Orchestration software module provides SON functionality to enable self-configuration and self-optimization during deployments, resulting in quick and easy rollouts. Interference mitigation by OpenRAN Software simplifies network expansions to make them easy to scale. OpenRAN and network is software-upgradable, removing the cost and complexity of transitioning the networks to 5G.</h5>
+
+ </div>
+
+
+
+<div style="padding: 50px;">
+
+  <h5>DEPLOYMENT OPTION</h5>
+<h5>Parallel Wireless’s solution is ideally suited for:</h5>
+
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Greenfield 4G Deployment: SPs looking to provide new 4G service in rural or urban areas. </h5></li>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Densification: SPs looking to densify their 4G networks to support increasing user count.</h5></li>
+    </h5></li>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Indoor 4G coverage based on CAP and OpenRAN controller with local or distributed EPC.</h5></li>
+
+  </ul>
+  <h5>As it delivers the following benefits:</h5>
+  <dl>
+    <dt>Cloud-native architecture across all components:</dt>
+    <dd > <span class="dd">-</span> OpenRAN software abstracts Core and RAN and brings 5G-like benefits to 4G (with low latency and network slicing).</dd>
+    <dd><span class="dd">-</span>  Data traffic local breakout through utilization of CUPS can deliver low latency into 4G networks today.</dd>
+    <dt>Easy to deploy, manage, and scale:</dt>
+    <dd><span class="dd">-</span> The software platform automates network optimization to reduce deployment cost.</dd>
+    <dd><span class="dd">-</span>  Self-configuration makes radios plug-and-play.</dd>
+    <dd><span class="dd">-</span> Self-optimization reduces the need for drive testing and results in cost reduction.</dd>
+    <dd><span class="dd">-</span> Radio is software-defined to upgrade user count and technologies, so sites can be software upgradable to higher capacity with COTS BBU or 5G when needed.</dd>
+    <dd><span class="dd">-</span>  Orchestration enables optimal network performance, which results in superior end-user QoE with seamless mobility, preventing subscriber churn.</dd>
+    
+    <dt>Lowest TCO:</dt>
+    <dd > <span class="dd">-</span> Automation reduces the need to travel on-site or use professional services.</dd>
+    <dd><span class="dd">-</span> Hands-free optimization of PW SON saves on on-going maintenance.</dd>
+    <dt>Future-proof and easy migration to 5G:</dt>
+    <dd > <span class="dd">-</span> Software platform enables 5G-native architecture which is upgradable to any 3GPP release in the future and can enable any 5G migration option.</dd>
+    <dd><span class="dd">-</span> Virtualization of gateways (like Security gateway, Small Cells gateway, Wi-Fi gateways, etc.) as VNFs allows flexibility to introduce new components and services within the network.</dd>
+  
+  
+  
+  </dl>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="container13">
+
+
+
+
+
+
+ 
+ <div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center;  display: flex;justify-content: center;align-items: center;">Learn More how Parallel Wireless OpenRAN Solution Can Help You Densify Your Networks Cost-effectively</h3>
+    <i class='fas fa-cloud-download-alt' style='font-size:48px;color:red'></i></h3>
+  </div></h3>
+  </div>
+
+<div style="padding: 40px; align-items: center;">
+  <h3 style="text-align: center;">Learn More how Parallel Wireless OpenRAN Solution Can Help You Densify Your Networks Cost-effectively</h3>
+  
+  <div style="display: flex;align-items: center; margin-left: 450px; padding: 30px;">
+  <div class="btn-header"><a class="btn btn1" href="/contact-us-form/" style="font-size: 15px; padding-left: 20px; padding-right: 20px;" target="_self">4G DISFECTION</a></div>
+  <div class="btn-header"><a class="btn btn1" href="/contact-us-form/" style="font-size: 15px; padding-left: 20px; padding-right: 20px;" target="_self">4G DISFECTION<</a></div>
+</div>
+</div>
+
+<div style="display: flex;justify-content: center;align-items: center;">
+  <a href="https://www.youtube.com/watch?v=P722eAjGTIk"><img src="Changing-Mobile-Screenshot-1170x658-1-1170x658.jpg"height="400px" width="600px" alt=""></a> 
+</div>
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Vodafone Case Study</h3>
+          <p>Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Learn More <i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products & Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="product-4.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            5G
+OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="product-1 (1).png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            Outdoor
+            OpenRAN</h5>
+           <p class="card-text">Our cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities to mobile operators and industries.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="product-2.png" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Real-time
+            ALL G SON
+            </h5>
+           <p class="card-text">Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play deployments and hands-free maintenance for much lower overall TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+ <section id="3g">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <img src="3g-hero.jpg" alt="">
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">Outdoor 3G Wireless Solution</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">5G</button>
+   <button style="height: 60px; width: 100px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">4G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: orangered; color: white; border-color: white;">3G</button>
+   <button style="height: 60px; width: 120px; border-radius: 0px; background-color: white; color: #3B3936; border-color: white;">2G</button>
+
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>Parallel Wireless’s innovative virtualized multi-technology OpenRAN solution supports 3G for outdoor deployments. It disaggregates hardware and software to make deployments easy and affordable to install, maintain and upgrade to any future technology. It automates radio and network optimization, provides QoS for voice and data while reducing deployment and maintenance TCO.</h5>
+ </div>
+
+
+
+ <div style="padding: 50px;">
+  <img src="4g-img.jpg"  style="float: right; margin: 20px;" alt="">
+
+  <h2>Features and Capabilities</h2>
+<h5>Key product components of our outdoor OpenRAN include:</h5>
+
+ </div>
+
+
+
+<div style="padding: 20px;">
+
+  <h3 style="padding-left: 30px;">DEPLOYMENT OPTION</h3>
+<h5 style="padding-left:30px ;">Parallel Wireless’s solution is ideally suited for:</h5>
+
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Outdoor OpenRAN hardware: </h5></li>
+    <dd > <span class="dd">-</span> Parallel Wireless OpenRAN outdoor base stations are built using low-cost GPP-based components, and are easy to install, which helps drive down CAPEX. Hands-free maintenance is enabled by self-optimization and self-healing capabilities of Parallel Wireless OpenRAN controller, thus reducing OPEX. Being able to deploy outdoor 3G over any type of backhaul including satellite and provide voice/data service is critical to ensure quality customer experience for the end users.</dd>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">OpenRAN controller for outdoor deployments:</h5></li>
+    <dd > <span class="dd">-</span> The outdoor Open RAN solution uses Parallel Wireless’s OpenRAN controller which provides for enterprise gateway functionalities with many 3G/4G functions virtualized, including Small Cell gateway and other functionalities. Normally the cost of these functionalities would be a significant extra. The controller software itself reduces the CAPEX up to 90%, as it includes many gateway functionalities needed for enterprise solutions to manage licensed and unlicensed spectrum.</dd>
+    <dd > <span class="dd">-</span> The controller runs on any x86 server, with a well-understood CAPEX of a few thousands of dollars with plenty of capacity.</dd>
+
+  </ul>
+  
+</div>
+
+
+
+<div style="margin: 50px; text-align: center;">
+  <h3>Deployment Scenarios</h3>
+  <h5 style="margin-top: 20px;">Our fully virtualized 3G solution is ideal for 3G outdoor deployments to provide cost-effective coverage. 3G OpenRAN and SON software can be deployed locally or in the cloud to enable deployment flexibility, low latency and resilience.</h5>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Optus Case Study</h3>
+          <p>Learn how Parallel Wireless OpenRAN Helped Optus Bring 3G Coverage in Australia cost-effectively.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Download now<i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">RELEVENT PRODUCT</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="4g-img-350x225.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Outdoor OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower cost.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="5g-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            5G 4G 3G 2G Technologies</h5>
+           <p class="card-text">By supporting ALL G, we deliver superior subscriber experience at substantial cost savings to mobile operators when building or maintaining both today’s 4G/3G/2G networks and tomorrow’s multi-vendor 5G networks.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="Network-Software-and-Intelligence-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">OpenRAN Controller </h5>
+           <p class="card-text">E2 interface-based, OpenRAN controller orchestrates multi-vendor outdoor and indoor 5G 4G 3G 2G RAN, automates networks, provides QoS for voice and data while reducing deployment and maintenance TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+ <section id="2g">
+
+  <div class="hero-inner ">
+       <div class="parallax-window">
+         <img src="https://www.parallelwireless.com/wp-content/uploads/2g-hero.jpg" alt="">
+         <div class="hero-cont-title">
+           <div class="container10">
+             <h1 class="solutino-head">Cloud-native 2G</h1>
+           </div>
+         </div>
+        
+       </div>
+  </div>
+  <div style="display: flex;justify-content: center;">
+   <button style="height: 60px; width: 80px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">5G</button>
+   <button style="height: 60px; width: 80px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">4G</button>
+   <button style="height: 60px; width: 80px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">3G</button>
+   <button style="height: 60px; width: 80px; border-radius: 0px; background-color: orangered; color: white; border-color: white;">2G</button>
+
+  </div>
+ <div style="margin: 70px; display: flex;flex-direction: column; justify-content: center;text-align:center;">
+   <h5>The Parallel Wireless 2G solution is a complete GSM network, software-upgradeable to any G, designed specifically to connect the unconnected at much lower cost and on accelerated timeline. It consists of a complete, carrier-grade base station subsystem including Parallel Wireless OpenRAN outdoor hardware to provide any G access and connect to any available transport and OpenRAN software suite – a 2G/3G/4G + security gateway to configure, optimize network and provide security without any human intervention while delivering local breakout (to improve satellite bandwidth requirement) and seamless mobility between any G technologies.</h5>
+ </div>
+
+
+
+ <div style="padding: 50px;">
+  <img src="Figure_PW-Open-RAN-Solution-768x403.png"  style="float: right; margin: 20px;" alt="">
+
+  <h2>Technical Features</h2>
+<h5>The Parallel Wireless GSM Radio Access Network solution consists of a complete Base Station Subsystem, ready to be interfaced to MSC & SGSN of existing networks or any greenfield deployments. The additional technical features include:
+
+</h5>
+
+ </div>
+
+
+
+<div style="padding: 20px;">
+
+  <h3 style="padding-left: 30px;">DEPLOYMENT OPTION</h3>
+<h5 style="padding-left:30px ;">Parallel Wireless’s solution is ideally suited for:</h5>
+
+  <ul> 
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Fully virtualized 2G solution that not only virtualizes 2G including vBSC but simplifies legacy 2F architecture with improved performance on high latency backhaul links (i.e satellite) and improved voice quality with RTP localization feature (Lawful Intercept enabled).</h5></li>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">2G solution that provides MUCH larger coverage area with much Higher RF output and is easy to deploy and maintain as it is fully automated though OpenRAN software SON module.</h5></li>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Easy and cost-effective upgradability to future Gs as it’s the only RAN solution with no forklift upgrade from 2G to 3G to 4G and 5G as the same baseband and radio can support 2G, 3G, 4G, & 5G at the same time, no need to buy additional equipment once ready to provide 3G, 4G, or 5G services.</h5></li>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Flexible backhaul options, including low-cost wireless mesh, satellite, microwave</h5></li>
+
+
+
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Scalable with tens of thousands of sites supported.</h5></li>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">True RAN Sharing enabled using PW Baseband (vBBU) and Aggregator software.</h5></li>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">It also supports active-active model towards MSC and SGSN to provide additional resiliency in case of network outages or failures.</h5></li>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Dynamic power sharing between technologies over the same radio</h5></li>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Easily deployed in heavy interference and limited spectrum environments with advanced Uplink receivers and Synthesized Frequency Hopping</h5></li>
+
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Bringing the power of 4G SON to your 2G network with Automatic Neighbor Management</h5></li>
+
+
+  </ul>
+  
+</div>
+
+
+
+<div style="margin: 50px; text-align: center;">
+  <h3>Deployment Scenarios</h3>
+  <h5 style="margin-top: 20px;">Our fully virtualized 3G solution is ideal for 3G outdoor deployments to provide cost-effective coverage. 3G OpenRAN and SON software can be deployed locally or in the cloud to enable deployment flexibility, low latency and resilience.</h5>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Optus Case Study</h3>
+          <p>Learn how Parallel Wireless OpenRAN Helped Optus Bring 3G Coverage in Australia cost-effectively.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Download now<i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">RELEVENT PRODUCT</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="4g-img-350x225.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Outdoor OpenRAN</h5>
+           <p class="card-text">Our fully orchestrated OpenRAN hardware consists of macros, outdoor and indoor small cells, and Massive MIMOs that are all Software Defined Radios (SDRs) and can be software upgraded to 5G for ease of deployment and much lower cost.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="5g-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            5G 4G 3G 2G Technologies</h5>
+           <p class="card-text">By supporting ALL G, we deliver superior subscriber experience at substantial cost savings to mobile operators when building or maintaining both today’s 4G/3G/2G networks and tomorrow’s multi-vendor 5G networks.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="Network-Software-and-Intelligence-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">OpenRAN Controller </h5>
+           <p class="card-text">E2 interface-based, OpenRAN controller orchestrates multi-vendor outdoor and indoor 5G 4G 3G 2G RAN, automates networks, provides QoS for voice and data while reducing deployment and maintenance TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+
+
+ <section id="Software-defined Open vRAN">
+
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="	https://www.parallelwireless.com/wp-content/uploads/vRAN-hero.jpg" alt="">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">Software-Defined Virtualized RAN (vRAN)</h1>
+        </div>
+      </div>
+     
+    </div>
+</div>
+<div style="display: flex;justify-content: center;">
+<button style="height: 60px; width: 120px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">OUTDOOR</button>
+<button style="height: 60px; width: 120px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">IN-VEHICAL</button>
+<button style="height: 60px; width: 120px;border-radius: 0px; background-color: white; color: #3B3936;border-color: white;">CERTIFICATIONS</button>
+<button style="height: 60px; width: 120px; border-radius: 0px; background-color: orangered; color: white; border-color: white;">RAN COTROLLER</button>
+
+</div>
+<div style="margin: 70px; display: flex;flex-direction: column;">
+<h5>Most of the CAPEX required to build a wireless network is related to the Radio Access Network (RAN) segment, reaching as high as 80% of the total network cost. Any reduction in the RAN equipment cost will significantly help the bottom line of wireless operators as they struggle to cope with the challenges of ever-increasing mobile traffic and flat revenues. Analysts projections of a 5G Macro-cell deployment cost show pricing falling by 50% until 2022 if it is built around an open architecture, whereas it will only fall by 30% if built in the traditional way. The 20% difference is hundreds of millions of dollars in the overall TCO, and will help mobile operators extend investments and become more profitable. <br> </h5>
+
+<ul> 
+ <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">Ability to select any COTS BBU and pool them as necessary</h5></li>
+
+ <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">A strategic software differentiation by enabling the Open RAN based Remote Radio Units (RRUs), provided by ecosystem partners, to interwork with the COTS-based Virtualized Baseband Unit (vBBU), preventing vendor lock-in</h5></li>
+ <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">Ability to use non-ideal fronthaul (i.e. Ethernet), overcoming the traditional constraints of CPRI over fiber</h5></li>
+
+<h5>Legacy RAN platforms have been based on proprietary hardware and rely on long and costly life-cycles in development, deployment, and operation. This created vendor lock-in and the inability to keep pace with technology and demographic changes. With each generation of radio interface change, these radios are typically replaced with newer versions at a significant investment and inconvenience to the mobile operators, perpetuating the vendor lock-in. <br> Parallel Wireless innovative Open RAN solution is truly open, designed to address the requirements of 2G, 3G and 4G networks with design and programming capabilities that enable software upgrades to 5G – providing investment protection and deployment flexibility in comparison to the legacy traditional radio infrastructure expansion that requires costly physical replacement in evolution race to 5G.</h5>
+ 
+</ul>
+
+</div>
+<div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center;  display: flex;justify-content: center;align-items: center;">Learn How Parallel Wireless OpenRAN is Changing the Mobile Networks Economics</h3>
+    <i class='fas fa-cloud-download-alt' style='font-size:48px;color:red'></i></h3>
+  </div></h3>
+  </div>
+
+
+  <div style="padding: 50px;">
+    <img src="Figure_RRU-vBBU-ORANController-_4_-768x155.png"  style="float: right; margin: 20px;" alt="">
+  
+    <h2>Features and Capabilities</h2>
+  <h5>By disaggregating hardware and software, the Parallel Wireless software platform helps MNOs expand and modernize their legacy networks to <br>support subscribers on ALL G technologies while being able to software upgrade them to 5G. Parallel Wireless industry-leading Open RAN <br>solution consists of COTS vBBU, OpenRAN-based RRU, OpenRAN Controller and Network Software Suite:</h5>
+  <ul> 
+    <dt>
+    <li style="color: orangered;"> <h5 style="color: #363936; margin-top: 20px;">OpenRAN Hardware — Software-defined GPP-based “white box” RRUs that allows MNOs to replace legacy 2G/3G/4G systems with fully virtualized OpenRAN technology. Multiple technologies can run simultaneously on the same site to provide superior data and voice services to the end users. Multi-technology RRHs are easy to deploy and maintain, and enable a clear technology evolution path from legacy technologies to 5G.</h5></li>
+   <dd> <span class="dd">-</span>Key features:</dd>
+   <dd> <span class="dd">-</span>Parallel Wireless supports a full range of RRU product portfolio from the ecosystem partners to support operators’ needs with different RF power ranges: 2T2R, 4T4R, 8T8R, massive MIMO</dd>
+<dd> <span class="dd">-</span>The RRUs, provided by the ecosystem, support multiple carriers over multiple technologies: GSM, UMTS, LTE, 5G-NR</dd>
+   <dd> <span class="dd">-</span>The common vBBU software manages all types of RRUs from the partners</dd>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;">vBBUs – Running on COTS servers, Parallel Wireless vBBU brings the future-proof architecture of a Distributed Unit (DU) and a Central Unit (CU), deployed at the network’s edge. The vBBU resources can be shared among multiple RRUs on-site in a multi-carrier 1-sector, 3-sector or 6-sector configurations to achieve optimal resource pooling for TCO savings.</h5></li>
+    <dd> <span class="dd">-</span>Key features:</dd>
+    <dd> <span class="dd">-</span>GSM, UMTS, LTE, 5G-NR, carrier aggregation, 256QAM, support of 2×2, 4×4, Massive MIMOs and more Open RAN RRU hardware options</dd>
+    <dd> <span class="dd">-</span>Deployed on Commercially Off the Shelf (COTS) hardware with high-performance computing and storage, it delivers higher availability, reliability, and scalability</dd>
+    <li style="color: orangered;"><h5 style="color: #363936;margin-top: 20px;"> OpenRAN Aggregator:</h5></li>
+   <dd> <span class="dd">-</span>Gateway for all RAN interfaces towards the Core network. Has functions like vBSC, vRNC, vENB, HeNBGW & HNBGW. It also has Security capabilities like Security Gateway. Abstracts different types of RAN from Core network. Simplifies and Converges multi-RAT RAN network. Reduces signaling towards Core. Reduces complexity by abstracting different RANs. Aggregates interfaces towards Core network. Key Element of RAN Sharing.</dd>
+  </dt>
+  </ul>
+
+   </div>
+
+
+<div style="margin: 50px; ;">
+  <h3>Deployment Options</h3>
+  <h5 style="margin-top: 20px;">By supporting a variety of OpenRAN hardware to cater to different use cases for coverage and capacity, utilizing advanced receivers and beamforming, Parallel Wireless Open vRAN brings business agility with network elasticity, flexibility, and real-time RAN optimization. The edge-centric baseband processing delivers low latency, local breakout, seamless mobility with real-time interference management and optimal resource optimization. In addition, the vBBU is designed to support multiple 3GPP compliant traffic splits, making the Parallel Wireless O-RAN solution an ideal choice for a vendor-agnostic and future-proof strategy for a 5G evolution, helping to achieve substantial TCO savings with easy to deploy and easy to maintain fully virtualized OpenRAN.</h5>
+</div>
+
+
+
+ <span class="dd">-</span>
+<div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center;  display: flex;justify-content: center;align-items: center;">Learn More in Our Recorded OpenRAN Webinar</h3>
+    <i class='fas fa-cloud-download-alt' style='font-size:48px;color:red'></i></h3>
+  </div></h3>
+  </div>
+
+
+  <div style="display: flex;justify-content: center;">
+    <img src="rajesh-misha.jpg" height="400px" alt="">
+  </div>
+
+
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">Optus Case Study</h3>
+          <p>Learn how Parallel Wireless OpenRAN Helped Optus Bring 3G Coverage in Australia cost-effectively.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Download now<i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">RELEVENT PRODUCT</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="5g-starts-here-350x225.jpg"   class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            Technology</h5>
+           <p class="card-text">Our cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities to mobile operators and industries.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="Network-Software-and-Intelligence-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            ALL G Real-time SON</h5>
+           <p class="card-text">Parallel Wireless 5G 4G 3G 2G and Wi-Fi SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play deployments and hands-free maintenance for much lower overall TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="network-solutions-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">OpenRAN Controller </h5>
+           <p class="card-text">E2 interface-based, OpenRAN controller orchestrates multi-vendor outdoor and indoor 5G 4G 3G 2G RAN, automates networks, provides QoS for voice and data while reducing deployment and maintenance TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+
+
+
+ <section id="5GOpenRAN">
+
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="5g-hero.jpg" alt="">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">5G OpenRAN</h1>
+        </div>
+      </div>
+     
+    </div>
+</div>
+
+
+  <div style="padding: 50px;">
+    <img src="Parallel-Wireless-Solution-Diagram-768x432.png"  style="float: right; margin: 20px;" alt="">
+  
+  
+  <h5>5G radio, or NR (New Radio), improves spectral efficiency and delivers unprecedented network capacity. 5G New Radio technology is based on flexible OFDM waveforms and multiple access techniques, optimized for various 5G services, applications, and deployment use cases. 5G (NR) features are defined by various 3GPP standards, with first phase completion in Rel-15 and second phase in Rel-16. <br>The Parallel Wireless OpenRAN software suite for 5G(NR) increases spectrum efficiency, traffic capacity, throughput, reliability, number of connected devices and reduces end-to-end latency. This technology enables MNOs to unlock and support diverse use cases such as Fixed Wireless Access (FWA), Enhanced Mobile broadband (eMBB), Massive Machine Type Communications (mMTC), and Ultra-Reliable Low Latency Communications (URLLC). <br>Parallel Wireless OpenRAN outdoor hardware is software-upgradable to 5G, delivering these enhanced capabilities at much lower cost.</h5>
+  
+
+   </div>
+
+
+
+
+
+ <span class="dd">-</span>
+<div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center;  display: flex;justify-content: center;align-items: center;">Learn more in our 5G NR Functional Splits white paper.</h3>
+    <i class='fas fa-cloud-download-alt' style='font-size:48px;color:red'></i></h3>
+  </div></h3>
+  </div>
+
+
+  <div style="display: flex;justify-content: center;">
+    <img src="5g-demo-video-still-1170x658.jpg" height="400px" alt="">
+  </div>
+
+
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">5GRuralFirst UK Case Study</h3>
+          <p>Learn how Parallel Wireless 5G-native architecture helped to enable new business models and 5G use cases.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Download now<i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products and Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="technologies-hero-350x225.jpg"card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G
+            5G-native
+            architecture</h5>
+           <p class="card-text">Parallel Wireless cloud-native OpenRAN approach enables any 5G migration option and is software upgradable to any future 3GPP releases delivering most cost-effective and advanced 5G capabilities.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="Network-Software-and-Intelligence-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            OpenRAN Controller</h5>
+           <p class="card-text">Industry’s first OpenRAN controller that supports E2 interface and orchestrates multi-vendor outdoor and indoor 5G 4G 3G 2G RAN and automates radio and network optimization while reducing deployment and maintenance TCO.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="how-to-buy-bg-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Real-Time ALL G SON </h5>
+           <p class="card-text">Parallel Wireless SON software module makes networks automated with self-configuration and self-optimization to deliver plug-n-play coverage and capacity deployments and hands-free maintenance.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+
+ <section id="interoperable">
+
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="OpenRAN-Network-hero.jpg" alt="">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">Reimagine the Economics of Multi-technology and Multi-vendor Networks</h1>
+        </div>
+      </div>
+     
+    </div>
+</div>
+<div style="margin: 150px;">
+  <h5>The concept of open goes beyond just standards interoperability. In theory, a RAN built by any of the legacy vendors is interoperable with any device, any core, any transmission network due to its conformance with 3GPP standards. But the software and interfaces remain either proprietary or optimized by the individual vendor and are often tied to the underlying hardware layer by the same vendor. The vision of the OpenRAN by Parallel Wireless is that it is open within the RAN, with the interfaces and operating software separating the RAN control plane from the user plane, building a modular base station software stack that operates on common-off-the-shelf (COTS) hardware, with open north- and south-bound interface. This software-enabled OpenRAN network architecture enables a “white box” RAN hardware meaning that baseband units, radio units and remote radio heads can be assembled from any vendor and managed by OpenRAN software to form a truly interoperable and open network.</h5>
+</div>
+
+
+  <div style="padding: 50px;">
+    <img src="Parallel-Wireless-Solution-Diagram-768x432.png"  style="float: right; margin: 20px;" alt="">
+  
+  <h3>Unifying ALL Gs and 5G Ready</h3>
+  <h5>5G radio, or NR (New Radio), improves spectral efficiency and delivers unprecedented network capacity. 5G New Radio technology is based on flexible OFDM waveforms and multiple access techniques, optimized for various 5G services, applications, and deployment use cases. 5G (NR) features are defined by various 3GPP standards, with first phase completion in Rel-15 and second phase in Rel-16. <br>The Parallel Wireless OpenRAN software suite for 5G(NR) increases spectrum efficiency, traffic capacity, throughput, reliability, number of connected devices and reduces end-to-end latency. This technology enables MNOs to unlock and support diverse use cases such as Fixed Wireless Access (FWA), Enhanced Mobile broadband (eMBB), Massive Machine Type Communications (mMTC), and Ultra-Reliable Low Latency Communications (URLLC). <br>Parallel Wireless OpenRAN outdoor hardware is software-upgradable to 5G, delivering these enhanced capabilities at much lower cost.</h5>
+  
+
+   </div>
+
+<h5>The resulting CAPEX cost benefits of selecting OpenRAN hardware are significant as it is reducing dedicated CAPEX hardware cost. Open source designs for the radio software minimizes costs even further. The cloud-native and software-based approach across ALL G significantly improves network economics by converging ‘ALL G’, including 2G, 3G, 4G, 5G, on to one unified software platform that is easy to manage. This eliminates the need for operators to maintain siloed legacy networks dedicated to just one G service resulting in up to 60% Opex cost reduction to maintain networks. This approach allows to modernize legacy networks for cost reduction and is essential to reduce the complexity and integration expense of rolling out multi-vendor 5G systems.</h5>
+
+
+
+ <span class="dd">-</span>
+<div class="container8">
+
+  <h3 style="text-align: center; height: 100px; display: flex;justify-content: center;align-items: center;"><div class="container8">
+
+    <h3 style="text-align: center;  display: flex;justify-content: center;align-items: center;">Learn How Inland Cellular cost-effectively enabled network expansion and interoperability with legacy equipment with Parallel Wireless cloud-native 4G architecture</h3>
+    <i class='fas fa-cloud-download-alt' style='font-size:48px;color:red'></i></h3>
+  </div></h3>
+  </div>
+
+
+  <div style="display: flex;justify-content: center;">
+    <img src="5g-demo-video-still-1170x658.jpg" height="400px" alt="">
+  </div>
+
+
+
+
+
+
+  <div class="last-image">
+    <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+      <div class="container">
+         
+          <aside>
+                  <h3 style="color: white; margin-bottom: 10px;">5GRuralFirst UK Case Study</h3>
+          <p>Learn how Parallel Wireless 5G-native architecture helped to enable new business models and 5G use cases.</p>
+        
+        <div class="user-meta">
+            
+          </div>
+          
+           <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Download now<i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+      
+          </aside>
+        </div>
+      </div>
+      </div>
+ 
+ <div>
+  <h2 style="text-align: center; margin-top: 20px;">Related Products and Technologies</h2>
+   <div class="card-group mt-5">
+       <div class="card ml-5">
+         <img src="technologies-hero-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">5G 4G 3G 2G
+            Technologies</h5>
+           <p class="card-text">By supporting ALL G, we deliver substantial cost savings to mobile operators when building or maintaining both today’s 4G/3G/2G networks and tomorrow’s multi-vendor 5G networks.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+           
+           
+           
+         </div>
+       </div>
+       <div class="card ml-5">
+         <img src="Network-Software-and-Intelligence-img-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">
+            Network Software</h5>
+           <p class="card-text">Our comprehensive software platform includes OpenRAN and network software suite to provide RAN and core services, orchestration and network programmability, network intelligence and service assurance including analytics, monitoring and orchestration.</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 mt-3 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+
+
+       <div class="card ml-5 mr-5">
+         <img src="how-to-buy-bg-350x225.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+           <h5 class="card-title" style="margin: 20px 10px;">Abstraction
+            Layer</h5>
+           <p class="card-text">OpenRAN Software Suite virtualizes the RAN interfaces to manage the 5G, 4G, 3G, 2G cells in real-time via multi-technology SON while abstracting RAN changes from the core network and the core network itself from the RAN..</p>
+           <button class="btn btn-outline-danger ml-3 mb-2 " type="button">Learn More <i class="fa fa-chevron-right" style="  font-size:20px;color:white;margin-left: 10px;"></i></button>
+         </div>
+       </div>
+     </div>
+ </div>
+ 
+ 
+ </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="product">
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="products-hero-1-1600x500.jpg">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">Products & Technologies</h1>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+
+
+
+
+    <div class="container12">
+        
+                <h2 class="heading2">Reimagine Your Network.<br>Reimagine Your Economics</h2>
+                      <p class="para5">
+                        The RAN accounts for around 60% of CAPEX and 65% of OPEX in the cellular network TCO. Mobile operators need to maximize the value of their existing network assets before giving the green light to new investment. With its software-defined and cloud-native OpenRAN network architecture, and with the world’s largest <a href="#" class="special"> OpenRAN ecosystem</a> , Parallel Wireless is leading the Open movement by delivering substantial cost savings to mobile operators for building or maintaining both today’s <a href="#" class="special">4G/3G/2G</a>  networks and tomorrow’s multi-vendor <a href="#" class="special">5G</a> networks. We strive to support our customers as they enable best-quality experiences to their end users and <a href="#" class="special"> industries.</a> industries.</p>
+                       
+        
+    </div>
+</div>
+
+
+<div class="container13">
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 rural">
+        <h1 class="rural-heading">Products</h1>
+        <p class="para6">Our unified, cloud-native, software-defined product portfolio spans across RAN, transport, Core, and Analytics to help reduce the cost and deployment complexity of today’s and tomorrow’s networks for consumers and industries.</p>
+        <h3 class="g">Learn More</h3>
+      </div>
+      <div class="col-lg-6   rural-image">
+        <img src="products-img.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="row">
+      
+      <div class="col-lg-6   order-md-1 order-lg-0 rural-image">
+        <img src="open-ran.jpg" width="570px" alt="">br
+      </div>
+      <div class="col-lg-6  order-md-0 order-lg-1 rural1">
+        <h1 class="rural-heading">Technologies</h1>
+        <p class="para6">Parallel Wireless leads the innovation in wireless infrastructure, with software-defined unified cloud-native OpenRAN network solutions. We provide the world’s largest OpenRAN ecosystem, delivering substantial cost savings to mobile operators as they build or maintain today’s 4G/3G/2G and tomorrow’s multi-vendor 5G networks to enable quality experience to their end users.</p>
+        <h3 class="g">Learn More</h3>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+<div class="container8">
+<h3 class="heading3">Visit our Resources page to download data sheets, solution overviews, watch webinar recordings and much more!</h1>
+
+<a href="" class="aa"><i class="bi bi-cloud-arrow-down-fill"></i></a> <br>
+<div class="icon-download"><a href="/resources/" class="fas fa-cloud-download-alt" aria-hidden="true"></a></div>
+
+<div class="last-image">
+  <div class="featured-casestudy perfmatters-lazy entered pmloaded" style="background-image: url(&quot;https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg&quot;);" data-bg="https://www.parallelwireless.com/wp-content/uploads/featured-case-study-background-1600x650.jpg"  data-ll-status="loaded">
+    <div class="container">
+       
+        <aside>
+                <h3 style="color: white; margin-bottom: 10px;">Vodafone Case Study</h3>
+        <p>Learn how the Parallel Wireless ALL G OpenRAN network solution helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+      
+      <div class="user-meta">
+          
+        </div>
+        
+         <div class="btn-out"><a href="/case-studies/vodafone-case-study/" class="btn">Learn More <i class="fas fa-cloud-download-alt" aria-hidden="true"></i></a></div>
+    
+        </aside>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+</div>
+
+</div>
+
+</section>
+
+
+
+
+
+<section id="customers">
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="hero-customers.jpg">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">Customers</h1>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+    <div class="container12">
+        
+                <h2 class="heading2">Helping Reimagine Global Cellular Networks</h2>
+                      <p class="para5">Bringing together unified network software and OpenRAN hardware, we are the only US provider capable of delivering true end-to-end innovative solutions for 5G, 4G, 3G and 2G deployments globally, including complex mixed technology and multi-vendor scenarios at much lower cost. Parallel Wireless enabled the world’s largest Open RAN ecosystem and has been recognized by Vodafone and Telefonica as a best performing vendor.  Our customers include over 60 global mobile operators, as well as private and public industries and governments that use our software defined network portfolio to reimagine their networks. Our innovation has been recognized with 60+ <a href="#" class="special">Industry awards</a> .</p>
+             <p></p>
+    </div>
+</div>
+
+
+<div class="container8">
+<h3 class="heading3">Open RAN Integration: Run With It</h1>
+
+  <div class="btn-out">
+    <a class="btn" target="_blank" href="https://www.parallelwireless.com/wp-content/uploads/iGR-OpenRAN-Integration-White-Paper.pdf">
+      View the White Paper			</a>
+  </div>
+</div>
+
+
+<div class="full-width logo-band-cont2">
+  <div class="container-fluid">
+      <div class="items-out">
+                  <div class="item col-sm-2 ">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/telefonica-255x72.png" alt="https://www.parallelwireless.com/wp-content/uploads/telefonica.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/telefonica-255x72.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/telefonica-255x72.png" alt="https://www.parallelwireless.com/wp-content/uploads/telefonica.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-logo-255x74.png" alt="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-logo.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-logo-255x74.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-logo-255x74.png" alt="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-logo.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/clientlogo-02.png" alt="https://www.parallelwireless.com/wp-content/uploads/clientlogo-02.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/clientlogo-02.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/clientlogo-02.png" alt="https://www.parallelwireless.com/wp-content/uploads/clientlogo-02.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/MTN-logo.jpg" alt="https://www.parallelwireless.com/wp-content/uploads/MTN-logo.jpg" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/MTN-logo.jpg" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/MTN-logo.jpg" alt="https://www.parallelwireless.com/wp-content/uploads/MTN-logo.jpg" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/optus-logo-255x51.png" alt="https://www.parallelwireless.com/wp-content/uploads/optus-logo.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/optus-logo-255x51.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/optus-logo-255x51.png" alt="https://www.parallelwireless.com/wp-content/uploads/optus-logo.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/vodaphone-logo-lg-255x65.png" alt="https://www.parallelwireless.com/wp-content/uploads/vodaphone-logo-lg.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/vodaphone-logo-lg-255x65.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/vodaphone-logo-lg-255x65.png" alt="https://www.parallelwireless.com/wp-content/uploads/vodaphone-logo-lg.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/zain-logo.png" alt="https://www.parallelwireless.com/wp-content/uploads/zain-logo.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/zain-logo.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/zain-logo.png" alt="https://www.parallelwireless.com/wp-content/uploads/zain-logo.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/etisalat-logo-255x150.jpg" alt="https://www.parallelwireless.com/wp-content/uploads/etisalat-logo.jpg" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/etisalat-logo-255x150.jpg" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/etisalat-logo-255x150.jpg" alt="https://www.parallelwireless.com/wp-content/uploads/etisalat-logo.jpg" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/5g-rural-first-255x80.png" alt="https://www.parallelwireless.com/wp-content/uploads/5g-rural-first.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/5g-rural-first-255x80.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/5g-rural-first-255x80.png" alt="https://www.parallelwireless.com/wp-content/uploads/5g-rural-first.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/Optimera.png" alt="https://www.parallelwireless.com/wp-content/uploads/Optimera.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/Optimera.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/Optimera.png" alt="https://www.parallelwireless.com/wp-content/uploads/Optimera.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/vodacom.png" alt="https://www.parallelwireless.com/wp-content/uploads/vodacom.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/vodacom.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/vodacom.png" alt="https://www.parallelwireless.com/wp-content/uploads/vodacom.png" /></noscript>  
+  
+          </div>
+                   <div class="item">
+  
+              <img src="https://www.parallelwireless.com/wp-content/uploads/InternetParaTodos-logo-sin-fondo1.png" alt="https://www.parallelwireless.com/wp-content/uploads/InternetParaTodos-logo-sin-fondo1.png" class="perfmatters-lazy entered pmloaded" data-src="https://www.parallelwireless.com/wp-content/uploads/InternetParaTodos-logo-sin-fondo1.png" data-ll-status="loaded"><noscript><img loading="lazy" src="https://www.parallelwireless.com/wp-content/uploads/InternetParaTodos-logo-sin-fondo1.png" alt="https://www.parallelwireless.com/wp-content/uploads/InternetParaTodos-logo-sin-fondo1.png" /></noscript>  
+  
+          </div>
+               </div>
+     
+  </div>
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+</div>
+
+
+
+<div>
+  
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 rural">
+        <h1 class="rural-heading">Telefonica Case Study</h1>
+        <p class="para6">Parallel Wireless Helps New Operator Mayutel to Build 3G/4G Open RAN Network in 3 Months Through Partnership with Telefonica.</p>
+        <h3 class="g">Download Case Study </h3>
+      </div>
+      <div class="col-lg-6   rural-image">
+        <img src="4g-img.jpg" alt="">
+
+       
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="customer-container">
+  <div class="sub-customer-container">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <h1>
+            Why Parallel Wireless</h1>
+          <ol class="order-list">
+            <li><span class="span-font">Interoperable across All G</span> </li>
+            <li><span class="span-font">Mature and end-to-end OpenRAN network solutions</span> </li>
+            <li><span class="span-font">Unification and simplification of 5G 4G 3G 2G and Wi-Fi networks</span> </li>
+            <li><span class="span-font">Easy install with plug-n-play and automated maintenance </span></li>
+            <li><span class="span-font">NewRevenue and network sharing</span> </li>
+            <li><span class="span-font">5G-native architecture</span> </li>
+            <li> <span class="span-font">Customer focused</span></li>
+          </ol>
+        </div>
+  
+
+
+        <div class="col-md-6">
+          <h1>
+            Benefits</h1>
+          <ol class="order-list">
+            <li><span class="span-font">Lowest TCO</span> </li>
+            <li><span class="span-font">Low-density or high-density indoor and outdoor coverage and capacity</span></li>
+            <li><span class="span-font">Faster deployment with less deployment CAPEX</span> </li>
+            <li><span class="span-font">Operational savings through automation and predictive OPEX </span></li>
+            <li><span class="span-font"> Profitability</span></li>
+            <li><span class="span-font">Agility and cost-effective migration to 5G</span> </li>
+            <li><span class="span-font">Globally deployed</span> </li>
+          </ol>
+        </div>
+
+      </div>
+    </div>
+    
+
+    <a href="/case-studies/" class="btn ">Learn More</a>
+  </div>
+
+
+</div>
+
+
+
+
+<div class="conatiner-vodafone">
+  
+  <div class="container ">
+    <div class="row">
+
+      <div class="col-lg-6   rural-image">
+        <img src="4g-img.jpg" alt="">
+
+       
+      </div>
+      <div class="col-lg-6 rural">
+
+        
+        <h1 class="rural-heading">Vodafone Case Study</h1>
+        <p class="para6">Learn how Parallel Wireless ALL G OpenRAN helped Vodafone modernize their network and reduce CAPEX and OPEX.</p>
+        <h3 class="g">Download Case Study </h3>
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+
+
+<div class="image-video">
+
+
+
+
+
+
+
+
+
+  
+  
+
+<img src="https://www.parallelwireless.com/wp-content/uploads/inland-cellular-video-opt.jpg" alt="inland"  >
+<video src="v=w0PK0VQvjko&t=1s"></video>
+</div>
+</section>
+
+
+<section id="company">
+
+
+
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="">
+      <div class="hero-cont-title">
+        <div class="container10">
+          <h1 class="solutino-head">Company</h1>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+
+
+
+
+    <div class="container12">
+        
+                <h2 class="heading2">About Us</h2>
+                      <p class="para5">
+                        Parallel Wireless is leading the OpenRAN movement with the world’s first <a href="#" class="special">5G/4G/3G/2G</a>  cloud-native OpenRAN architecture that is open, standardized, and interoperable across five key domains – <a href="#" class="special">RAN, Edge, Core, Orchestration</a>  and <a href="#" class="special">Analytics</a>. 
+                        
+                        <br>
+                        
+                        Through open collaboration with our OpenRAN ecosystem partners, we have created a world first and largest fully-compliant OpenRAN ecosystem that is capable of delivering the next generation of wireless infrastructure at dramatically lower cost, ensuring more equal access to 5G across the globe. <br>Our OpenRAN portfolio is designed to help our customers modernize their networks, reduce deployment cost and complexity, increase operational efficiency, find new revenue streams, and start deploying multi-vendor 5G networks today. <br>Our customers include over 60 global mobile operators, as well as private and public industries and governments that are all using our software-defined network portfolio to reimagine their networks and get ready for 5G./p>
+                       
+        
+    </div>
+</div>
+
+
+<div class="container13">
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 rural">
+        <h1 class="rural-heading">Leadership</h1>
+        <p class="para6">The Parallel Wireless team has experience building every component of the cellular network across 2G, 3G, 4G and 5G. We have built many companies from scratch into the leading industry players. For the past 7+ years, our amazing team has been reimagining the architecture of the cellular networks to make deploying and maintaining any G networks, including 5G, easy and cost-effective.</p>
+        <h3 class="g">Learn More</h3>
+      </div>
+      <div class="col-lg-6   rural-image">
+        <img src="leadership-image-585x415.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="row">
+      
+      <div class="col-lg-6   order-md-1 order-lg-0 rural-image">
+        <img src="parallel-reimagine-585x415.jpg" width="570px" alt="">br
+      </div>
+      <div class="col-lg-6  order-md-0 order-lg-1 rural1">
+        <h1 class="rural-heading">Our Culture</h1>
+        <p class="para6">We are a fast-moving technology company that is proud of what we do, ambitious about innovation and collaboration, and keenly focused on our customers’ success.</p>
+        <h3 class="g">Join Our Global Team </h3>
+      </div>
+    </div>
+  </div>
+
+
+</div>
+
+</section>
+
+
+
+
+<section id="resources">
+  <div class="hero-inner ">
+    <div class="parallax-window">
+      <img src="products-hero-1-1600x500.jpg">
+      <div class="hero-cont-title">
+        
+        <div class="container10">
+          <h1 class="solutino-head">Resources</h1>
+        </div>
+      </div>
+     
+    </div>
+  </div>
+
+
+
+
+
+    <div class="container12">
+        
+                <h2 class="heading2">Reimagine Your Network.<br>Reimagine Your Economics</h2>
+                      <p class="para5">In this asset library you’ll find solutions brochures, data sheets, recorded webinars, and customer videos and case studies to learn more about Parallel Wireless world’s leading 5G 4G 3G 2G OpenRAN.</p>
+             <p></p>
+    </div>
+</div>
+
+
+<div class="container13">
+
+  <div class="container ">
+    <div class="row">
+      <div class="col-lg-6 rural">
+        <h1 class="rural-heading">Solution Overviews</h1>
+        <p class="para6">Learn more about Parallel Wireless 5G 4G 3G 2G coverage and capacity outdoor and indoor solutions by checking out our solution overview briefs and presentations.</p>
+        <h3 class="g">Learn More</h3>
+      </div>
+      <div class="col-lg-6   rural-image">
+        <img src="5g-img.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container ">
+    <div class="row">
+      
+      <div class="col-lg-6   order-md-1 order-lg-0 rural-image">
+        <img src="eNodeB-img.jpg" width="570px" alt="">br
+      </div>
+      <div class="col-lg-6  order-md-0 order-lg-1 rural1">
+        <h1 class="rural-heading">Case Studies</h1>
+        <p class="para6">See how we’ve helped customers all over the globe modernize their networks and reduce costs with our outdoor and indoor OpenRAN.</p>
+        <h3 class="g">Learn More</h3>
+      </div>
+    </div>
+  </div>
+
+
+  
+
+  <div class="container ">
+    <div class="row row1">
+      <div class="col-lg-6  rural">
+        <h1 class="rural-heading">Customer Testimonial Videos</h1>
+        <p class="para6">Hear it straight from our customers by watching our customer testimonial videos!</p>
+        <h3 class="g">Watch More Here </h3>
+      </div>
+      <div class="col-lg-6  rural-image">
+        <img src="parallel-photo.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+ 
+  <div class="container ">
+    <div class="row row1">
+      
+      <div class="col-lg-6  order-md-1 order-lg-0  rural-image">
+        <img src="city-img.jpg"width="570px" alt="">
+      </div>
+      <div class="col-lg-6 order-md-0 order-lg-1 rural1">
+        <h1 class="rural-heading">White Papers</h1>
+        <p class="para6">Take a deeper dive into our 5G 4G 3G 2G cloud-native solutions with our white papers.</p>
+        <h3 class="g">Download Now </h3>
+      </div>
+    </div>
+  </div>
+
+
+  
+  <div class="container ">
+    <div class="row row1">
+      <div class="col-lg-6  rural">
+        <h1 class="rural-heading">Webinars</h1>
+        <p class="para6">Our webinar program is a great way to learn about everything-Parallel as well as latest industry trends.</p>
+        <h3 class="g">Watch Now </h3>
+      </div>
+      <div class="col-lg-6  rural-image">
+        <img src="presentation-img.jpg" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="container ">
+    <div class="row row1">
+      
+      <div class="col-lg-6  order-md-1 order-lg-0  rural-image">
+        <img src="parallel-play-button.jpg"width="570px" alt="">
+      </div>
+      <div class="col-lg-6 order-md-0 order-lg-1 rural1">
+        <h1 class="rural-heading">Videos and Demos</h1>
+        <p class="para6">Our videos and demos are a great way to learn about our products, solutions, and deployments – check them out to learn more..</p>
+        <h3 class="g">Watch Now  </h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container8">
+<h3 class="heading3">Learn from our technical experts about how our OpenRAN solutions are improving networks around the world.</h1>
+
+
+</div>
+
+</section>
+
+
+
+<div id="career">
+  <div class="career-container">
+    <h1>Careers at Parallel Wireless</h1>
+  </div>
+  <div class="container">
+    <div class="row">
+        <div class="col-md-6 order-sm-1 order-md-0">
+            <h1 style="font-size: 32px; padding: 0px 0px 5px;">We’re disrupting, challenging, and leading the future of telecommunications.</h1>
+            <p class="gstars-para">ThParallel Wireless is making a big difference for Mobile Network Operators (MNOs) across the globe as they move toward a secure, cloud-enabled, digital future built on Open RAN technology, and our teams from around the world are all in. There’s no better time to join Parallel Wireless to lead the disruption in wireless networks and propel your future.</p>
+            
+        </div>
+        <div class="mt-5 col-md-6 order-sm-0 order-md-1">
+            <img src="PW-CareersPage-Disrupting.jpg" height="415px" width="585" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="container m-3 p-5">
+    <div class="row">
+        <div class="col-md-6 order-sm-0 order-md-1">
+            <img src="PW-CareersPage-Technology.jpg"  height="415px" width="585" >
+        </div>
+        <div class="col-md-6 order-sm-0 order-md-1">
+            <h1 style="font-size: 32px; margin-left: 120px;; ">Technology that delivers wireless connectivity, so all people can be connected whenever, wherever, and however they choose.</h1>
+            <p class="gstars-para" style="margin-left: 120px;">At Parallel Wireless, you’ll have a unique opportunity to reimagine the boundaries of what’s possible in telecommunications. As part of the Open RAN movement, you’ll help develop innovative products and solutions by leveraging open interfaces, thus enabling cost-effective, agile, and scalable mobile networks from 2G, 3G and 4G to 5G and beyond..</p>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="container m-3 p-5">
+  <div class="row">
+      <div class="col-md-6 order-sm-1 order-md-0">
+          <h1 style="font-size: 32px; padding: 0px 0px 5px;">We Are #TeamParallelWireless</h1>
+          <p class="gstars-para">What do we value most? Our people, our technology, and reimagining the world – together. You’ll be part of a team, all driven to go beyond the status quo to reimagine what comes next. This is the #TeamParallelWireless story, and we’re just getting started.</p>
+        
+      </div>
+      <div class="mt-2 col-md-6 order-sm-0 order-md-1">
+          <img src="PW-CareersPage-TeamParallelWireless-585x400-1.jpg" height="415px" width="585" alt="">
+      </div>
+  </div>
+</div>
+
+
+  <div style="display: flex;justify-content: center;align-items: center;">
+
+    <a href="#" class="card-text card-text1" ><button class="btn ">EXPLORE OPPORTUNITIES</button></a>
+
+    
+  </div>
+<hr color="orangered" height="100px">
+
+
+<div>
+  <div class="card-group mt-5">
+      <div class="card ml-5">
+        <img src="PW-CareersPage-EmployeeProgram-350x295.png"   class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">
+            Employee Programs</h5>
+          <p class="card-text">Our programs are global but delivered regionally ensuring every employee receives a tailored, individual development plan to get you to be the best version of yourself. We celebrate our wins with recognition (Spot Awards) and time off to give back to your community.</p>
+          
+          
+          
+          
+        </div>
+      </div>
+      <div class="card ml-5">
+        <img src="PW-CareersPage-ComprehensiveBenefits-350x295.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Comprehensive Benefits</h5>
+          <p class="card-text">Our benefits are competitive and designed to foster and encourage good health, peace of mind, and long- term financial security for our team members around the globe.</p>
+          
+        </div>
+      </div>
+      <div class="card ml-5 mr-5">
+        <img src="PW-CareersPage-GrowthLifesytle-large-350x295.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Growth and Lifestyle</h5>
+          <p class="card-text">PW-CareersPage-GrowthLifesytle-large
+            Growth and Lifestyle
+            We support you with everything from flexible/remote working arrangements, a comprehensive global mobility program to support your career growth, and paid time off so you have time to rest and recharge!</p>
+        </div>
+      </div>
+    </div>
+</div>
+ 
+
+
+
+<div class="container-qq">
+  <h2>Our team is “All In” and vested to achieve amazing growth as we transform the wireless broadband industry.</h2>
+  <a href="#" class="card-text card-text1" style="margin-top: 30PX; font-size: 30PX;">JOIN US !</a>
+</div>
+
+<hr color="orangered">
+
+
+
+<div style="display: flex;
+justify-content: center; align-items: center;text-align: center; margin: 50px; font-family: fira-sira;" class="op">
+  <div style="margin: 30px;">
+    <h1 style="margin-bottom: 20px;">OUR VISION</h1>
+    <p style="font-family:fira sans,sans-serif; font-size: 20px;">To reimagine the wireless network so all people can be connected whenever, wherever, and however they choose.</p>
+  </div>
+  <div style="margin: 50px;">
+    <h1  style="margin-bottom: 20px;">OUR MISSION
+    </h1>
+    <p  style="font-family:fira sans,sans-serif; font-size: 20px;">To deliver innovative products that unlock value and disrupt the economics of wireless networks through intelligence and openness. Our customers’ success is our success.</p>
+  </div>
+</div>
+
+<div style="display: flex;
+justify-content: center; align-items: center;text-align: center; margin: 50px; font-family: fira-sira;" class="op">
+  <h1>Core Values</h1>
+
+  <div id="carouselExample" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        
+    
+      </div>
+   
+   
+  </div>
+</div>
+
+
+
+
+<div id="carouselExampleIndicators" style="margin: 80px;" class="carousel slide">
+  
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Careers-Values-Image_Collaborative.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Careers-Values-Image_Customercentric.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Careers-Values-Image_Driven.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Careers-Values-Image_Innovative.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="Careers-Values-Image_Open.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+  </div>
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+<footer class="footer-distributed" >
+
+  <div class="footer-left">
+      <img src="https://www.parallelwireless.com/wp-content/uploads/brand-paralell-wireless.svg"  height="70px" width="200px">
+
+
+      <h5>Follow Us</h5>
+      <p class="footer-links">
+          <a href="#"><i class="bi bi-twitter pp"></i></a>
+          
+          <a href="#"><i class="bi bi-linkedin pp"></i></a>
+          
+          <a href="#"><i class="bi bi-facebook pp"></i></a>
+          
+          <a href="#"><i class="bi bi-youtube"></i></a>
+      </p>
+
+  </div>
+
+  <div class="footer-center">
+      <div>
+        <h2 class="footer-heading">Important Link</h2>
+        <hr color="black" size="50px" width="270px">
+        <div style="display: flex;">
+          <div style="display: flex; flex-direction: column; margin-right: 00px;">
+        <a href="#" class="gg">Resources</a>
+        <a href="#" class="gg">About</a>
+        <a href="#" class="gg">UsLeadership</a>
+        <a href="#" class="gg">Solutions</a>
+        <a href="#" class="gg">News</a>
+      </div>
+      <div style="display: flex; flex-direction: column;">
+        <a href="#" class="gg">Technologies</a>
+        <a href="#" class="gg">Contact</a>
+        <a href="#" class="gg">Products</a>
+        <a href="#" class="gg">Careers</a>
+      </div>
+    </div>
+      </div>
+
+  </div>
+  <div class="footer-right">
+      <p class="footer-company-about">
+          <h2 class="footer-heading">Contact us</h2>
+
+          <hr color="black" size="50px">
+        
+          
+          <p class="zz"><i class="bi bi-headset">1-603-589-9937</i><br></p>
+          <p class="zz"> <i class="bi bi-geo-alt-fill">300 Innovative Way, Suite #2310
+            Nashua, NH 03062, USA</i></p>
+        
+      </p>
+      
+  </div>
+
+
+  <div>
+    <p>© 2023 Parallel Wireless. All rights reserved.</p>
+    <a href=""> Privacy |  Policy</a>  | <a href="">Legal</a>  | <a href="">Cookies </a> | <a href="">Terms of Use</a> | <a href=""> Trademarks</a> | <a href="">PO Terms & Conditions</a> </p>
+
+  </div>
+</footer>
+
+
+
+<script>
+</script>
+
+</body>
+
+</html>
+
